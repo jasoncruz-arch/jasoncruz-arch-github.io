@@ -3,19 +3,26 @@ layout: home
 title: Gerald Jason Cruz
 ---
 
-# Welcome to My Portfolio
+<header class="site-header">
+  <nav class="main-nav">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="nav-link">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
 
-Brief introduction about yourself here.
+<main class="home-grid">
+  {% for project in site.projects limit:4 %}
+  <article class="project-thumbnail">
+    <a href="{{ project.url }}">
+      <img src="{{ project.thumbnail }}" alt="{{ project.title }}">
+      <h2>{{ project.title }}</h2>
+    </a>
+  </article>
+  {% endfor %}
+</main>
 
-## Selected Projects
-
-{% for project in site.projects limit:3 %}
-<div class="project-thumbnail">
-  <a href="{{ project.url }}">
-    <img src="{{ project.thumbnail }}" alt="{{ project.title }}">
-    <h3>{{ project.title }}</h3>
-  </a>
-</div>
-{% endfor %}
-
-[See all projects](/projects/)
+<footer class="site-footer">
+  <p>© Gerald Jason Cruz {{ site.time | date: '%Y' }}</p>
+  <p>This website is a work in progress</p>
+</footer>
