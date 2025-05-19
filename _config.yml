@@ -22,7 +22,7 @@ title: Gerald Jason Cruz
 email: gerald@jasoncruz.co
 description: >- # this means to ignore newlines until "baseurl:"
 #site description goes here (will appear in Google results)  
-Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.
+	Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "jasoncruz-arch.github.io" # Change this to https://jasoncruz.co once ready to transfer
 twitter_username: n/a
