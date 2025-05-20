@@ -1,14 +1,59 @@
 ---
 layout: default
 ---
-<article class="project">
 
+{% if page.featured_image %}
+  <div class="project-hero">
+    <img src="{{ page.featured_image }}" alt="{{ page.title }} hero image">
+  </div>
+{% endif %}
+
+
+<article class="project-detail">
   <header class="project-header">
-    <h1 class="project-title">{{ page.title | escape }}</h1>
+    <h1 class="project-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="project-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
+
+  <div class="project-metadata">
+  <div class="metadata-table">
+    {% if page.type %}
+      <div class="metadata-row">
+        <div class="metadata-label">Type</div>
+        <div class="metadata-value">{{ page.type }}</div>
+      </div>
+    {% endif %}
+    {% if page.year %}
+      <div class="metadata-row">
+        <div class="metadata-label">Year</div>
+        <div class="metadata-value">{{ page.year }}</div>
+      </div>
+    {% endif %}
+    {% if page.team %}
+      <div class="metadata-row">
+        <div class="metadata-label">Team</div>
+        <div class="metadata-value">{{ page.team }}</div>
+      </div>
+    {% endif %}
+    {% if page.advisor %}
+      <div class="metadata-row">
+        <div class="metadata-label">Advisor</div>
+        <div class="metadata-value">{{ page.advisor }}</div>
+      </div>
+    {% endif %}
+    {% if page.role %}
+      <div class="metadata-row">
+        <div class="metadata-label">Role</div>
+        <div class="metadata-value">{{ page.role }}</div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 
   <div class="project-content">
     {{ content }}
   </div>
-
 </article>

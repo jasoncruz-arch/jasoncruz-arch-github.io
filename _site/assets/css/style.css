@@ -716,4 +716,82 @@ small, .small, .caption {
   font-weight: 400; /* Regular */
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.project-thumb-link {
+  display: block;
+  overflow: hidden;
+  border-radius: 0px; /* optional for rounded corners */
+}
+
+.project-thumb {
+  width: 100%;
+  aspect-ratio: 4/3; /* or 1/1 for square, if you want */
+  object-fit: cover;
+  display: block;
+}
+
+.project-detail {
+  margin: 2em 0;
+}
+
+.project-header {
+  margin-bottom: 2em;
+}
+
+.project-title {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+}
+
+.project-subtitle {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.project-metadata {
+  margin-bottom: 2em;
+}
+
+.metadata-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.metadata-row {
+  display: table-row;
+}
+
+.metadata-label,
+.metadata-value {
+  display: table-cell;
+  padding: 0.05em 0.7em 0.05em 0;
+  vertical-align: top;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+.metadata-label {
+  font-weight: 600;
+  color: #222;
+  width: 120px; /* Adjust as needed */
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.metadata-value {
+  font-weight: 400;
+  color: #555;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */

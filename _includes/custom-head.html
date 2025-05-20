@@ -1,1 +1,18 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+{% if page.layout == "project" and page.title and page.description %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "creator": {
+    "@type": "Person",
+    "name": "Gerald Jason Cruz"
+  }
+  {% if page.year %}, "dateCreated": "{{ page.year }}"{% endif %}
+  {% if page.featured_image %}, "image": "{{ site.url }}{{ page.featured_image }}"{% endif %}
+}
+</script>
+{% endif %}
