@@ -1,0 +1,78 @@
+---
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+
+.site-title-container {
+  display: flex;
+  align-items: center;
+  float: left
+}
+
+.red-square {
+  font-family: Arial, sans-serif; /* NOT IBM Plex Sans */
+  font-size: 40px; /* Match .site-title font-size */
+  width: lh;       /* 1 line-height unit */
+  height: 1.25lh;
+  color: rgb(199,39, 54);
+  margin-right: 10px;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.site-title {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.001em !important; 
+}
+
+.site-title,
+.site-title:link,
+.site-title:visited,
+.site-title:hover,
+.site-title:active {
+  text-decoration: none;
+  color: inherit; /* Keeps the color unchanged on hover */
+}
+
+
+.site-nav .page-link {
+  color: #888888;
+  text-decoration: none;
+  margin-left: 25px;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.site-nav .page-link:hover {
+  color: rgb(214, 0, 0);
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+h1 {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+h2 {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 600; /* SemiBold */
+}
+
+small, .small, .caption {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 400; /* Regular */
+}
+

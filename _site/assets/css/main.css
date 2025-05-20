@@ -1,7 +1,6 @@
 /**
  * Reset some basic elements
  */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -647,73 +646,20 @@ table td {
   color: #099;
 }
 
-.site-title-container {
-  display: flex;
-  align-items: center;
-  float: left;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
-.red-square {
-  font-family: Arial, sans-serif; /* NOT IBM Plex Sans */
-  font-size: 40px; /* Match .site-title font-size */
-  width: lh; /* 1 line-height unit */
-  height: 1.25lh;
-  color: rgb(199, 39, 54);
-  margin-right: 10px;
-  line-height: 1;
-  display: inline-block;
-  vertical-align: middle;
+.project-thumbnail {
+  border: 1px solid #eee;
+  padding: 10px;
+  transition: transform 0.2s ease;
 }
 
-.site-title {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  letter-spacing: 0.001em !important;
+.project-thumbnail:hover {
+  transform: translateY(-5px);
 }
 
-.site-title,
-.site-title:link,
-.site-title:visited,
-.site-title:hover,
-.site-title:active {
-  text-decoration: none;
-  color: inherit; /* Keeps the color unchanged on hover */
-}
-
-.site-nav .page-link {
-  color: #888888;
-  text-decoration: none;
-  margin-left: 25px;
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  transition: color 0.2s;
-}
-
-.site-nav .page-link:hover {
-  color: rgb(214, 0, 0);
-  text-decoration: none;
-}
-
-body {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 400; /* Regular */
-}
-
-h1 {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 700; /* Bold */
-}
-
-h2 {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 600; /* SemiBold */
-}
-
-small, .small, .caption {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 400; /* Regular */
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
