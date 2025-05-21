@@ -24,8 +24,8 @@ description: >-
   Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "jasoncruz-arch.github.io" # Change this to https://jasoncruz.co once ready to transfer
-twitter_username: n/a
-github_username: jasoncruz-arch
+instagram_username: jasoncruz.arch
+linkedin_username: gerald-jason-cruz
 
 # Build settings
 theme: minima

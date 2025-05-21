@@ -5,10 +5,41 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
 
 
+.wrapper {
+  width: 80% !important;
+  max-width: 1400px !important;
+  margin: 0 auto;
+}
+
+.site-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff; /* Match your site background */
+  border-bottom: 1px solid #eee; /* Optional: subtle separation */
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04); /* Optional: subtle shadow */
+}
+
+/* Ensure the wrapper inside the header does not exceed the page width */
+.site-header .wrapper {
+  margin: 0 auto;
+  width: 80% !important;
+  max-width: 1400px !important;
+}
+
+/* Add top margin to content so it's not hidden under the fixed header */
+.page-content {
+  margin-top: 80px; /* Adjust this value to match your header's height */
+}
+
+
 .site-title-container {
   display: flex;
   align-items: center;
   float: left
+  
 }
 
 .red-square {
@@ -152,4 +183,92 @@ small, .small, .caption {
   font-weight: 400;
   color: #555;
   font-size: 1rem;
+}
+
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.footer-info {
+  flex: 1 1 220px;
+}
+
+.footer-name {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.001em; 
+}
+
+.footer-desc {
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
+    font-weight: 40;
+    font-size: 15px;
+    color: #666;
+}
+
+.footer-contact {
+  flex: 1 1 220px;
+  line-height: 1.7;
+}
+
+.footer-contact a {
+  color: #b0b0b0;
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-contact a:hover {
+  color: rgb(214, 0, 0);
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-family: 'IBM Plex Sans', Arial, sans-serif;
+  margin-top: 0.5em;
+  font-size: 15px;
+  color: #888;
+  text-align: left;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em; /* vertical space between links */
+}
+
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  color: #888;
+  font-size: 1em;
+  text-decoration: none;
+  margin-bottom: 0.1em;
+  transition: color 0.2s;
+}
+
+.footer-social-link:hover {
+  color: #d60000;
+}
+
+.footer-icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  fill: currentColor;
+  display: inline-block;
+}
+
+.footer-contact a:visited,
+.footer-social a:visited {
+  color: #888; /* or use the same color as your unvisited links, e.g., #888 */
+  text-decoration: none;
 }
