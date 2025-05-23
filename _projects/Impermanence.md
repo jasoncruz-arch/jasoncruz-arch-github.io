@@ -8,7 +8,7 @@ year: 2021
 team: Roudhah Al Mazrouei, Jennifer Tsai
 advisor: Goffredo Puccetti, Felix Beck, Matt Karau
 role: Conceptual Design, Rendering, Structural Design, Project Management, Budgeting
-thumbnail: /assets/images/projects/impermanence/impermanence-thumbnail.jpeg
+thumbnail: /assets/images/projects/impermanence/impermanence-thumbnail1.jpeg
 featured_image: /assets/images/projects/impermanence/impermanence-hero.png
 description: 
 selected: true
