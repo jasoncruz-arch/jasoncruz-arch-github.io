@@ -113,6 +113,10 @@ body, .page-content, main {
 }
 
 
+
+
+
+
 /* Projects Grid Layout */
 .projects-grid {
   display: grid;
@@ -130,15 +134,26 @@ body, .page-content, main {
 /* Project Card */
 .project-thumb-link {
   display: block;
-  text-decoration: none;
   color: inherit;
   border-radius: 0;
   overflow: hidden;
   transition: box-shadow 0.2s;
-  /* Remove extra vertical padding/margin to rely on grid gap */
-  padding: 0 !important;
-  margin: 0 !important;
-  line-height: 0;
+  padding: 0;
+  margin: 0;
+  /* Remove underline from the whole card in all states */
+  text-decoration: none !important;
+}
+.project-thumb-link:link,
+.project-thumb-link:visited,
+.project-thumb-link:hover,
+.project-thumb-link:active,
+.project-thumb-link:focus {
+  text-decoration: none !important;
+}
+
+/* Remove underline from all descendants (image, title, etc) */
+.project-thumb-link * {
+  text-decoration: none !important;
 }
 
 /* Project Thumbnail Image */
@@ -147,12 +162,9 @@ body, .page-content, main {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
-  border-radius: 0;
-  margin: 0;           /* Remove any margin */
-  vertical-align: top; /* Extra safety */
+  margin: 0 0 0.5em 0; /* Space below image for title */
+  vertical-align: top;
 }
-
-
 
 /* Project Title */
 .project-title-link {
@@ -160,33 +172,21 @@ body, .page-content, main {
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   font-weight: 600;
   font-size: 1.2em;
-  margin: 0 0 0 0;
+  margin: 0.2em 0 0.2em 0;
   transition: color 0.2s;
-  text-decoration: none;
-}
-
-.project-thumb-link:hover .project-title-link,
-.project-thumb-link:focus .project-title-link {
-  color: #d60000 !important;
   text-decoration: none !important;
+  display: block;
 }
-
-/* Remove underline from all relevant links */
-.project-thumb-link,
-.project-thumb-link:link,
-.project-thumb-link:visited,
-.project-thumb-link:hover,
-.project-thumb-link:active,
-.project-title-link,
 .project-title-link:link,
 .project-title-link:visited,
 .project-title-link:hover,
 .project-title-link:active,
-.project-tag-link,
-.project-tag-link:link,
-.project-tag-link:visited,
-.project-tag-link:hover,
-.project-tag-link:active {
+.project-title-link:focus {
+  text-decoration: none !important;
+}
+.project-thumb-link:hover .project-title-link,
+.project-thumb-link:focus .project-title-link {
+  color: #d60000 !important;
   text-decoration: none !important;
 }
 
@@ -196,10 +196,15 @@ body, .page-content, main {
 }
 
 /* Project Tag Link */
-.project-tag-link {
+.project-tag-link,
+.project-tag-link:link,
+.project-tag-link:visited,
+.project-tag-link:hover,
+.project-tag-link:active,
+.project-tag-link:focus {
   display: inline-block;
   background: #f2f2f2;
-  color: #666;
+  color: #666 !important;
   font-size: 0.95em;
   padding: 0.12em 0.7em;
   border-radius: 12px;
@@ -208,14 +213,23 @@ body, .page-content, main {
   font-family: 'IBM Plex Sans', Arial, sans-serif;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  text-decoration: none !important;
 }
 
 .project-tag-link:hover,
 .project-tag-link:focus {
   background: #d60000;
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
+  text-decoration: none !important;
 }
+
+
+
+
+
+
+
+
 
 
 .project-detail {

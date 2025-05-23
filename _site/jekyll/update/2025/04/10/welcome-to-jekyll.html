@@ -96,7 +96,23 @@
 </article>
 
       </div>
-    </main><footer class="site-footer">
+    </main>
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const filterTag = urlParams.get('tag');
+        if (filterTag) {
+          document.querySelectorAll('.projects-grid .project-thumb-link').forEach(function(card) {
+            const tags = Array.from(card.querySelectorAll('.project-tag-link')).map(el => el.textContent.trim());
+            if (!tags.includes(filterTag)) {
+              card.style.display = 'none';
+            } else {
+              card.style.display = '';
+            }
+          });
+        }
+      });
+      </script><footer class="site-footer">
   <div class="wrapper">
     <div class="footer-main">
       <div class="footer-info">
