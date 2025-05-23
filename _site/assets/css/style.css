@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -731,18 +732,35 @@ body {
 }
 
 h1 {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 700; /* Bold */
+  font-weight: 600 !important;
+  font-size: 28px !important;
 }
 
 h2 {
-  font-family: "IBM Plex Sans", Arial, sans-serif;
-  font-weight: 600; /* SemiBold */
+  font-weight: 600 !important;
+}
+
+h3 {
+  font-weight: 600 !important;
+}
+
+h4, h5, h6 {
+  font-weight: 500;
 }
 
 small, .small, .caption {
   font-family: "IBM Plex Sans", Arial, sans-serif;
   font-weight: 400; /* Regular */
+  font-size: 14px;
+  color: #888;
+}
+
+body, .page-content, main {
+  font-family: "IBM Plex Sans", Arial, sans-serif; /* or your preferred font */
+  font-size: 16px; /* adjust to your liking */
+  font-weight: 400; /* 400 is regular, 300 is light, 500+ is bold */
+  color: #222; /* adjust for your palette */
+  line-height: 1.6; /* for better readability */
 }
 
 .projects-grid {
@@ -750,6 +768,93 @@ small, .small, .caption {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin: 40px 0;
+}
+
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Projects page */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 40px 0;
+}
+
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.project-thumb-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s;
+  border-radius: 0;
+  overflow: hidden;
+  padding-bottom: 1em;
+}
+
+.project-thumb {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  margin-bottom: 0.5em;
+}
+
+.project-title-link {
+  color: #222 !important; /* or #000 for pure black */
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin: 0.2em 0 0.2em 0;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.project-thumb-link:hover .project-title-link,
+.project-thumb-link:focus .project-title-link {
+  color: #d60000 !important;
+  text-decoration: none !important; /* Remove underline on hover */
+}
+
+.project-thumb-link,
+.project-thumb-link:link,
+.project-thumb-link:visited,
+.project-thumb-link:hover,
+.project-thumb-link:active,
+.project-title-link,
+.project-title-link:link,
+.project-title-link:visited,
+.project-title-link:hover,
+.project-title-link:active,
+.project-tag-link,
+.project-tag-link:link,
+.project-tag-link:visited,
+.project-tag-link:hover,
+.project-tag-link:active {
+  text-decoration: none !important;
+}
+
+.project-tags {
+  margin-top: 0.2em;
+}
+
+.project-tag {
+  display: inline-block;
+  background: #f2f2f2;
+  color: #666;
+  font-size: 0.95em;
+  padding: 0.12em 0.7em;
+  border-radius: 12px;
+  margin-right: 0.35em;
+  margin-bottom: 0.1em;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
 }
 
 .project-thumb-link {
@@ -855,7 +960,7 @@ small, .small, .caption {
 }
 
 .footer-contact a {
-  color: #b0b0b0;
+  color: #888;
   font-family: "IBM Plex Sans", Arial, sans-serif;
   font-size: 15px;
   text-decoration: none;
@@ -875,12 +980,6 @@ small, .small, .caption {
   text-align: left;
 }
 
-.footer-social {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2em; /* vertical space between links */
-}
-
 .footer-social-link {
   display: inline-flex;
   align-items: center;
@@ -893,6 +992,7 @@ small, .small, .caption {
 
 .footer-social-link:hover {
   color: #d60000;
+  text-decoration: none !important;
 }
 
 .footer-icon {
@@ -908,6 +1008,207 @@ small, .small, .caption {
 .footer-social a:visited {
   color: #888; /* or use the same color as your unvisited links, e.g., #888 */
   text-decoration: none;
+}
+
+.footer-contact a,
+.footer-contact a:link,
+.footer-contact a:visited,
+.footer-contact a:hover,
+.footer-contact a:active,
+.footer-social a,
+.footer-social a:link,
+.footer-social a:visited,
+.footer-social a:hover,
+.footer-social a:active {
+  color: #888; /* or your preferred color */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-contact a:hover,
+.footer-social a:hover {
+  color: #d60000; /* or your preferred hover color */
+}
+
+.project-footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.project-media,
+.project-about {
+  flex: 1 1 320px;
+  max-width: 50%;
+}
+
+.project-media h3,
+.project-about h3 {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-bottom: 0.7em;
+}
+
+.project-media ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.project-media li {
+  margin-bottom: 0.2em; /* Reduce vertical space */
+  padding: 0;
+  line-height: 1.2; /* Tighter line height */
+}
+
+.project-media a,
+.project-media a:link,
+.project-media a:visited,
+.project-media a:active {
+  color: #888 !important; /* Match footer contact color */
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  padding-left: 1.1em;
+}
+
+.project-media a::before {
+  content: "↗";
+  position: absolute;
+  left: 0;
+  color: #888;
+  font-size: 18px;
+  top: 50%;
+  transform: translateY(-65%);
+}
+
+.project-media a:hover,
+.project-media a:focus {
+  color: #d60000 !important;
+  text-decoration: none;
+}
+
+.project-media a:hover::before,
+.project-media a:focus::before {
+  color: #d60000;
+}
+
+.project-about p {
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #444;
+  margin-top: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .project-footer-columns {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .project-media,
+  .project-about {
+    max-width: 100%;
+  }
+}
+.media-link,
+.media-link:link,
+.media-link:visited,
+.media-link:active {
+  color: #888 !important; /* or #b0b0b0 if you want gray */
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.media-link:hover {
+  color: #d60000 !important;
+  text-decoration: none;
+}
+
+/* Image column stuff */
+.equal-height-row {
+  display: flex;
+  align-items: center !important; /* or center */
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.equal-height-img {
+  height: 320px; /* Set your desired uniform height */
+  width: auto; /* Width adjusts automatically based on aspect ratio */
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04); /* Optional */
+}
+
+/* Responsive: stack images on small screens and reduce height */
+@media (max-width: 700px) {
+  .equal-height-row {
+    flex-direction: column;
+    gap: 0.7em;
+  }
+  .equal-height-img {
+    height: 180px; /* Adjust for mobile */
+  }
+}
+/* Image and Description columns */
+.content-row {
+  display: flex;
+  gap: 2em;
+  margin: 2em 0;
+  align-items: flex-start;
+}
+
+.content-col {
+  flex: 1 1 0; /* Default: equal width, can be overridden inline */
+}
+
+.content-col img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.caption {
+  font-size: 0.93em;
+  color: #888;
+  display: block;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+}
+
+@media (max-width: 800px) {
+  .content-row {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .content-col {
+    max-width: 100%;
+  }
+}
+/* Spec List */
+.spec-list dt {
+  font-weight: 400;
+  float: left;
+  clear: left;
+  width: 160px; /* adjust as needed */
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.spec-list dd {
+  margin-left: 180px; /* should be slightly more than dt width */
+  margin-bottom: 1.2em;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */

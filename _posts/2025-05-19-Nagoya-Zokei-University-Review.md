@@ -4,6 +4,9 @@ title:  "Nagoya Zokei University Review"
 date:   2025-04-29
 categories: Review
 ---
+![Nagoya Zokei University, viewed from a pedestrian bridge](/assets/images/writings/nagoya-zokei/Nagoya_Zokei-42.jpg) <br><br>
+
+
 The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.
 
 
