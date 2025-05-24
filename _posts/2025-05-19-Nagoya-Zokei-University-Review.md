@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Nagoya Zokei University Review"
+description: A glimpse into Riken Yamamoto's public-private university, from an outsider's perspective.
+thumbnail: /assets/images/writings/nagoya-zokei/nagoya-zokei-thumbnail.jpeg
 date:   2025-04-29
-categories: Review
+tags: [Photo Essay]
 ---
-![Nagoya Zokei University, viewed from a pedestrian bridge](/assets/images/writings/nagoya-zokei/Nagoya_Zokei-42.jpg) <br><br>
-
+<br>
 
 The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.
-
 
 Riken Yamamoto, who received the Pritzker Architectural Prize in 2024, is best known for his philosophy on spaces that blend the public and private. This new university campus is his most recent completed work, and thus I think represents the most up-to-date application of his architectural practice. Nagoya Zokei, which specializes in arts and design majors, relocated from Komaki City in the north of Nagoya to its current location in 2021. It was once the site of a public housing complex, and several apartment buildings can still be seen scattered around the site, thus placing it in an urban fabric that demands sensitivity from its surroundings. The very nature of the building's site embodies Yamamoto's philosophy– being located on top of a  subway station demands a coexistence with the public sphere. Hence the building gives way to the station beneath it by being divided into four different "cores" that serve as structural columns to the building's upper floors. The subway exits on both the north and south end face you opposite the campus initially, as if directing the unassuming public away if one doesn't intend on visiting the campus.
 

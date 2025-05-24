@@ -140,7 +140,6 @@ body, .page-content, main {
   transition: box-shadow 0.2s;
   padding: 0;
   margin: 0;
-  /* Remove underline from the whole card in all states */
   text-decoration: none !important;
 }
 .project-thumb-link:link,
@@ -164,6 +163,14 @@ body, .page-content, main {
   object-fit: cover;
   margin: 0 0 0.5em 0; /* Space below image for title */
   vertical-align: top;
+  transition: transform 0.2s, filter 0.2s;
+}
+
+/* Hover Effects: Scale and Desaturate */
+.project-thumb-link:hover .project-thumb,
+.project-thumb-link:focus .project-thumb {
+  transform: scale(1.03);
+  filter: grayscale(0.75);
 }
 
 /* Project Title */
@@ -222,6 +229,7 @@ body, .page-content, main {
   color: #fff !important;
   text-decoration: none !important;
 }
+
 
 
 
@@ -577,3 +585,135 @@ body, .page-content, main {
   font-size: 16px;
   font-weight: 400;
 }
+
+
+/* Gallery List */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 2em 0;
+}
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+.gallery-grid img:hover {
+  transform: scale(1.03);
+}
+
+
+
+
+
+.post-tags {
+  margin-bottom: 0.5em;
+}
+.post-tag {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #d60000;
+  margin-right: 0.7em;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.post-tag:hover,
+.post-tag:focus {
+  color: #888;
+}
+.post-title {
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.post-description {
+  color: #444;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+.post-thumbnail {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-bottom: 2em;
+  display: block;
+}
+
+
+
+/* Writings Page gallery */
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+.post-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.2rem;
+  transition: transform 0.2s;
+}
+.post-item:hover {
+  transform: translateY(-3px);
+}
+.post-thumbnail {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 0.7em;
+  display: block;
+}
+
+.post-item h3 {
+  margin-bottom: 0.2em; /* Reduce from default, or set to 0 for tight spacing */
+}
+
+.post-meta-row {
+  margin-top: 0.1em;    /* Reduce from 0.3em */
+  margin-bottom: 0.7em; /* Keep as is, or adjust as needed */
+}
+
+.post-tag {
+  color: #666; /* gray by default */
+  font-weight: 600;
+  font-size: 1em;
+  margin-right: 0.5em;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.post-tag:hover,
+.post-tag:focus {
+  color: #d60000; /* red on hover */
+}
+
+.post-meta {
+  color: #888;
+  font-size: 0.95em;
+}
+.post-link {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.post-link:hover {
+  color: #d60000;
+  text-decoration: none; /* no underline on hover */
+}
+
+.post-description {
+  color: #444;
+  font-size: 1.05em;
+  margin-top: 0.5em;
+}
+@media (max-width: 700px) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
+}
+

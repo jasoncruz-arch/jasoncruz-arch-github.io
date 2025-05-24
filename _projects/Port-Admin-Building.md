@@ -2,7 +2,7 @@
 layout: project
 title: Abu Dhabi Port Administration Building
 subtitle: A landmark sustianable office building
-type: Academic
+type: Architecture
 location: United Arab Emirates
 year: 2024
 team: Alya AlZeyoudi, Mawadda Abdan, Rawan Habashy, Mayher Matharu

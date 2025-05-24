@@ -2,7 +2,7 @@
 layout: project
 title: 225 Duffield Street
 subtitle: A supertall icon in Downtown Brooklyn
-type: Academic
+type: Architecture
 location: United States
 year: 2023
 team: Waqas Bhutta, Qisheng Li

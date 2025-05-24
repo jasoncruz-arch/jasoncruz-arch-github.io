@@ -2,13 +2,14 @@
 layout: project
 title: Urban Fabric
 subtitle: The Christo and Jeanne-Claude Award 2022 Winner
-type: Competition
+type: Installation
+location: United Arab Emirates
 year: 2022
 team: Roudhah Al Mazrouei, Jennifer Tsai
 advisor: Goffredo Puccetti
 role: Conceptual Design, Rendering, Structural Engineering, Project Management, Budgeting
 thumbnail: /assets/images/projects/urban-fabric/urban-fabric-thumbnail.jpeg
-featured_image: /assets/images/projects/urban-fabric/urban-fabric-thumbnail.png
+featured_image: /assets/images/projects/urban-fabric/urban-fabric-hero.png
 description: Urban Fabric is a series of three sculptures resembling pieces of thread, intertwined and interlaced into the ground, creating a dynamic and thought-provoking space.
 selected: true
 order: 4
@@ -63,6 +64,23 @@ Commissioned by the Abu Dhabi Music and Arts Foundation, Urban Fabric stands as 
 <br>
 <small> Urban Fabric’s context in different places connects the city across temporal and spatial bounds. </small>
 
+<br>
+
+<div class="gallery-grid">
+  <a href="/assets/images/projects/urban-fabric/urban-fabric1.png" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric1.png" alt="Description 1">
+  </a>
+  <a href="/assets/images/projects/urban-fabric/urban-fabric2.png" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric2.png" alt="Description 2">
+  </a>
+  <a href="/assets/images/projects/urban-fabric/urban-fabric3.png" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric3.png" alt="Description 3">
+  </a>
+  <!-- Add more images as needed -->
+</div>
+
+
+
 <br><br>
 
 <div class="project-footer-columns">
@@ -83,3 +101,12 @@ Commissioned by the Abu Dhabi Music and Arts Foundation, Urban Fabric stands as 
     <p> The Award is given for the proposal and creation of an artwork that, in the spirit of Christo and Jeanne-Claude’s work, can be publicly exhibited and enjoyed. </p>
   </div>
 </div>
+
+<script>
+  lightGallery(document.getElementById('project-gallery'), {
+    plugins: [lgZoom, lgThumbnail],
+    speed: 400,
+    download: false,
+    thumbnail: true
+  });
+</script>

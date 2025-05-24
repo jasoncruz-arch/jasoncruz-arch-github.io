@@ -1,5 +1,9 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg">
+<link rel="icon" type="image/png" href="/assets/images/favicon/favicon.png">
+
+/* Link for Image Gallery function */
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
 
 {% if page.layout == "project" and page.title and page.description %}
@@ -13,8 +17,10 @@
     "@type": "Person",
     "name": "Gerald Jason Cruz"
   }
-  {% if page.year %}, "dateCreated": "{{ page.year }}"{% endif %}
-  {% if page.featured_image %}, "image": "{{ site.url }}{{ page.featured_image }}"{% endif %}
+  {% if page.year %},
+    "dateCreated": "{{ page.year }}"{% endif %}
+  {% if page.featured_image %}{% if page.year %},{% endif %}
+    "image": "{{ site.url }}{{ page.featured_image }}"{% endif %}
 }
 </script>
 {% endif %}
