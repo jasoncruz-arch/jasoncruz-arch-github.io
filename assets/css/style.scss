@@ -590,21 +590,32 @@ body, .page-content, main {
 /* Gallery List */
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 2em 0;
 }
 .gallery-grid img {
   width: 100%;
-  aspect-ratio: 4/3;
+  aspect-ratio: 4/3;     /* Default: horizontal images */
   object-fit: cover;
-  cursor: pointer;
+  cursor: zoom-in;
   border: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: transform 0.2s;
 }
 .gallery-grid img:hover {
   transform: scale(1.03);
+}
+
+@media (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 

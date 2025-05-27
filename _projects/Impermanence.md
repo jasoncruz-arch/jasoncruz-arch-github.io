@@ -9,7 +9,7 @@ team: Roudhah Al Mazrouei, Jennifer Tsai
 advisor: Goffredo Puccetti, Felix Beck, Matt Karau
 role: Conceptual Design, Rendering, Structural Design, Project Management, Budgeting
 thumbnail: /assets/images/projects/impermanence/impermanence-thumbnail1.jpeg
-featured_image: /assets/images/projects/impermanence/impermanence-hero.png
+featured_image: /assets/images/projects/impermanence/impermanence-hero.jpeg
 description: 
 selected: true
 order: 6
@@ -49,25 +49,87 @@ A sustainable temporary pavilion is one that truly disappears after it is used. 
 ## Drawings and Renders
 ![Entrance (South) Elevation](/assets/images/projects/impermanence/impermanence-elevation.png) <br>
 <small> Entrance (South) Elevation </small>
-<br><br>
+<br>
 
-![East Elevation Detail](/assets/images/projects/impermanence/impermanence-elevation2.png) <br>
-<small> East Elevation Elevation Detail </small>
-<br><br>
+<div class="content-row">
+  <div class="content-col" style="flex: 1 1 0;">
+    <img src="/assets/images/projects/impermanence/impermanence-render-day.jpeg" alt="Render of Impermanence during the day">
+    <small class="caption">Render of Impermanence during the day.</small>
+  </div>
+  <div class="content-col" style="flex: 1 1 0;">
+    <img src="/assets/images/projects/impermanence/impermanence-render-night.jpeg" alt="Render of Impermanence at night">
+    <small class="caption">Render of Impermanence at night.</small>
+  </div>
+<div class="content-col" style="flex: 1 1 0;">
+    <p> These renders were presented to the jury of the competition. The gateway entrance serves as the highlight of the pavilion, welcoming visitors to the first Abu Dhabi Art since the beginning of the pandemic. During the construction phase, it was estimated that the projector would go overbudget, so it was unfortunately cancelled from the original plans. </p>
+  </div>
+</div>
+
+<br>
+
+## Construction
+<div class="content-row">
+  <div class="content-col" style="flex: 1 1 0;">
+    <img src="/assets/images/projects/impermanence/impermanence-construction1.jpeg" alt="Impermanence beginning construction">
+    <small class="caption">Impermanence beginning construction.</small>
+  </div>
+  <div class="content-col" style="flex: 1 1 0;">
+    <img src="/assets/images/projects/impermanence/impermanence-construction2.jpeg" alt="Impermanence nearing completion">
+    <small class="caption">Impermanence nearing completion.</small>
+  </div>
+  <div class="content-col" style="flex: 1 1 0;">
+    <p> In these photos the construction of the pavilion can be seen, beginning in October 2021 for a completion date of November 2021. We worked with the contractors to ensure that the plans for materials were properly followed to ensure the sustainability of the pavilion. </p>
+  </div>
+</div>
+
+
+## Image Gallery
+
+
+<img src="/assets/images/projects/impermanence/impermanence-2.jpeg"
+     alt="Visitors leaving their mark on Impermanence's canvas facade"
+     style="display: block; width: 100vw; max-width: 100vw; margin-left: 50%; transform: translateX(-50%); height: auto;" />
+<br>
+<small> Visitors leaving their mark on Impermanence's canvas facade. </small>
+
 
 <div id="project-gallery" class="gallery-grid">
-  <a href="/assets/images/projects/your-image-1.jpg">
-    <img src="/assets/images/projects/your-image-1-thumb.jpg" alt="Description 1">
+  <a href="/assets/images/projects/impermanence/impermanence-1.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-1.jpeg" alt="Impermanence entrance">
   </a>
-  <a href="/assets/images/projects/your-image-2.jpg">
-    <img src="/assets/images/projects/your-image-2-thumb.jpg" alt="Description 2">
+  <a href="/assets/images/projects/impermanence/impermanence-3.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-3.jpeg" alt="Visitors leaving their mark on Impermanence's canvas facade">
   </a>
-  <a href="/assets/images/projects/your-image-3.jpg">
-    <img src="/assets/images/projects/your-image-3-thumb.jpg" alt="Description 3">
+  <a href="/assets/images/projects/impermanence/impermanence-5.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-5.jpeg" alt="The pavilion in focus">
+  </a>
+  <a href="/assets/images/projects/impermanence/impermanence-7.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-7.jpeg" alt="Description 3">
+  </a>
+  <a href="/assets/images/projects/impermanence/impermanence-6.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-6.jpeg" alt="Description 3">
+  </a>
+  <a href="/assets/images/projects/impermanence/impermanence-4.jpeg">
+    <img src="/assets/images/projects/impermanence/impermanence-4.jpeg" alt="Description 3">
   </a>
   <!-- Add more images as needed -->
 </div>
 
+<div class="project-footer-columns">
+  <div class="project-media">
+    <h3>In the Media</h3>
+    <ul>
+      <li><a href="https://bluprint.onemega.com/abu-dhabi-art-pavilion-rethinking-impermanence-in-architecture/" target="_blank">BluPrint Philines</a></li>
+      <li><a href="https://web.archive.org/web/20211116100114/https://en.vogue.me/culture/abu-dhabi-art-13th-edition-highlights/" target="_blank">Vogue Arabia</a></li>
+      <li><a href="https://www.nyuad.design/archive/impermanence" target="_blank">NYUAD Design</a></li>
+    </ul>
+  </div>
+  <div class="project-about">
+    <h3>About the Abu Dhabi Art Pavilion Prize</h3>
+    <p>
+     The Abu Dhabi Art Pavilion Prize was launched in 2017, inviting university students from across the United Arab Emirates to develop architectural proposals for a Pavilion. Each year the winning design is realised at the Abu Dhabi Art fair and seen by thousands of visitors. It is conceived as a temporary structure that remains during the week of the art fair at Manarat Al Saadiyat, with the potential to be repurposed or relocated. </p>
+  </div>
+</div>
 
 
 <script>
