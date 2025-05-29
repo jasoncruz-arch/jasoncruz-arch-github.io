@@ -47,10 +47,27 @@ Tbaba’s design contributes to the public infrastructure of Dubai Design Distri
 
 ## Simple, yet Sustainable Materials
 
-![The Tbaba pavilion at night](/assets/images/projects/tbaba/tbaba-3.png){: width="1000" style="display:block; margin-left:auto; margin-right:auto;" } <br>
+![The Tbaba pavilion at night](/assets/images/projects/tbaba/tbaba-3.jpeg){: width="1000" style="display:block; margin-left:auto; margin-right:auto;" } <br>
 
 Tbaba as a minimalist installation is made out of low cost and sustainable materials: scaffolding for its structure, which will be reused after the exhibition, recycled plywood for the stage, and red fabric, which gives form and mimics the tbaba cloth.
 <br> <br>
+
+## Image Gallery
+
+<div class="gallery-grid">
+  <a href="/assets/images/projects/tbaba/tbaba-1.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-1.jpeg" alt="Tbaba Pavilion">
+  </a>
+  <a href="/assets/images/projects/tbaba/tbaba-2.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-2.jpeg" alt="Tbaba framing the Dubai skyline">
+  </a>
+  <a href="/assets/images/projects/tbaba/tbaba-thumbnail.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-thumbnail.jpeg" alt="Visitor interacting with the flowing fabric">
+  </a>
+  <!-- Add more images as needed -->
+</div>
+
+<br><br>
 
 <div class="project-footer-columns">
   <div class="project-media">

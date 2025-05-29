@@ -68,13 +68,13 @@ Commissioned by the Abu Dhabi Music and Arts Foundation, Urban Fabric stands as 
 
 <div class="gallery-grid">
   <a href="/assets/images/projects/urban-fabric/urban-fabric1.png" class="glightbox" data-gallery="project-gallery">
-    <img src="/assets/images/projects/urban-fabric/urban-fabric1.png" alt="Description 1">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric1.png" alt="Urban Fabric framing the Sheikh Zayed Grand Mosque">
   </a>
   <a href="/assets/images/projects/urban-fabric/urban-fabric2.png" class="glightbox" data-gallery="project-gallery">
-    <img src="/assets/images/projects/urban-fabric/urban-fabric2.png" alt="Description 2">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric2.png" alt="Kids interacting with the sculptures">
   </a>
   <a href="/assets/images/projects/urban-fabric/urban-fabric3.png" class="glightbox" data-gallery="project-gallery">
-    <img src="/assets/images/projects/urban-fabric/urban-fabric3.png" alt="Description 3">
+    <img src="/assets/images/projects/urban-fabric/urban-fabric3.png" alt="Urban Fabric on display at Umma Al Emarat Park">
   </a>
   <!-- Add more images as needed -->
 </div>

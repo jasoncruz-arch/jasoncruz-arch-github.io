@@ -94,23 +94,23 @@ A sustainable temporary pavilion is one that truly disappears after it is used. 
 
 
 <div id="project-gallery" class="gallery-grid">
-  <a href="/assets/images/projects/impermanence/impermanence-1.jpeg">
+  <a href="/assets/images/projects/impermanence/impermanence-1.jpeg" class="glightbox" data-gallery="project-gallery">
     <img src="/assets/images/projects/impermanence/impermanence-1.jpeg" alt="Impermanence entrance">
   </a>
-  <a href="/assets/images/projects/impermanence/impermanence-3.jpeg">
+  <a href="/assets/images/projects/impermanence/impermanence-3.jpeg" class="glightbox" data-gallery="project-gallery">
     <img src="/assets/images/projects/impermanence/impermanence-3.jpeg" alt="Visitors leaving their mark on Impermanence's canvas facade">
   </a>
-  <a href="/assets/images/projects/impermanence/impermanence-5.jpeg">
+  <a href="/assets/images/projects/impermanence/impermanence-5.jpeg" class="glightbox" data-gallery="project-gallery">
     <img src="/assets/images/projects/impermanence/impermanence-5.jpeg" alt="The pavilion in focus">
   </a>
-  <a href="/assets/images/projects/impermanence/impermanence-7.jpeg">
-    <img src="/assets/images/projects/impermanence/impermanence-7.jpeg" alt="Description 3">
+  <a href="/assets/images/projects/impermanence/impermanence-7.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/impermanence/impermanence-7.jpeg" alt="Red scaffolding detail">
   </a>
-  <a href="/assets/images/projects/impermanence/impermanence-6.jpeg">
-    <img src="/assets/images/projects/impermanence/impermanence-6.jpeg" alt="Description 3">
+  <a href="/assets/images/projects/impermanence/impermanence-6.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/impermanence/impermanence-6.jpeg" alt="A glimpse into the interior">
   </a>
-  <a href="/assets/images/projects/impermanence/impermanence-4.jpeg">
-    <img src="/assets/images/projects/impermanence/impermanence-4.jpeg" alt="Description 3">
+  <a href="/assets/images/projects/impermanence/impermanence-4.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/impermanence/impermanence-4.jpeg" alt="Red scaffolding corner detail">
   </a>
   <!-- Add more images as needed -->
 </div>
@@ -119,7 +119,7 @@ A sustainable temporary pavilion is one that truly disappears after it is used. 
   <div class="project-media">
     <h3>In the Media</h3>
     <ul>
-      <li><a href="https://bluprint.onemega.com/abu-dhabi-art-pavilion-rethinking-impermanence-in-architecture/" target="_blank">BluPrint Philines</a></li>
+      <li><a href="https://bluprint.onemega.com/abu-dhabi-art-pavilion-rethinking-impermanence-in-architecture/" target="_blank">BluPrint Philppines</a></li>
       <li><a href="https://web.archive.org/web/20211116100114/https://en.vogue.me/culture/abu-dhabi-art-13th-edition-highlights/" target="_blank">Vogue Arabia</a></li>
       <li><a href="https://www.nyuad.design/archive/impermanence" target="_blank">NYUAD Design</a></li>
     </ul>
