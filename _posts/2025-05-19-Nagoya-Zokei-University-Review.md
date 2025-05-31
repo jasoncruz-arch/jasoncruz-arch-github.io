@@ -3,10 +3,10 @@ layout: post
 title:  "Nagoya Zokei University Review"
 description: A glimpse into Riken Yamamoto's public-private university, from an outsider's perspective.
 thumbnail: /assets/images/writings/nagoya-zokei/nagoya-zokei-thumbnail.jpeg
+thumbnaildesc: "Western view of Nagoya Zokei University from a pedestrain bridge."
 date:   2025-04-29
 tags: [Photo Essay]
 ---
-<br>
 
 The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.
 
@@ -46,7 +46,7 @@ A campus I do have experience with as an insider is my own alma mater, Rafael Vi
 
 
 
-
+<!---
 
 <div class="post-list">
   {% for post in site.posts %}
@@ -56,4 +56,4 @@ A campus I do have experience with as an insider is my own alma mater, Rafael Vi
       <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}
-</div>
+</div> --->

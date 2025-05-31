@@ -14,7 +14,7 @@ selected: true
 order: 1
 ---
 
-Tbaba (تبابة) is a pavilion showcased at Dubai Design Week 2024 in Dubai Design District (d3). This innovative installation merges Filipino and Emirati maritime heritage through a [wind-responsive design]({% link _projects/The-Red-Spot.md %}) that transforms traditional pearl diving elements into contemporary architectural expression and creating an engaging space that provides shade and sparks cultural dialogue. Tbaba challenges conventional notions of design in the UAE through the power of intercultural collaboration and the potential of simple, sustainable materials to create high-impact, meaningful spaces.
+Tbaba (تبابة) is a pavilion showcased at Dubai Design Week 2024 in Dubai Design District (d3). This innovative installation merges Filipino and Emirati maritime heritage through a <a class="internal-link" href=" {% link _projects/The-Red-Spot.md %}"> wind responsive design</a> that transforms traditional pearl diving elements into contemporary architectural expression and creating an engaging space that provides shade and sparks cultural dialogue. Tbaba challenges conventional notions of design in the UAE through the power of intercultural collaboration and the potential of simple, sustainable materials to create high-impact, meaningful spaces.
 <br> <br>
 ## A Tribute to the Arabian Gulf’s Pearl Diving Heritage
 
@@ -49,7 +49,7 @@ Tbaba’s design contributes to the public infrastructure of Dubai Design Distri
 
 ![The Tbaba pavilion at night](/assets/images/projects/tbaba/tbaba-3.jpeg){: width="1000" style="display:block; margin-left:auto; margin-right:auto;" } <br>
 
-Tbaba as a minimalist installation is made out of low cost and sustainable materials: scaffolding for its structure, which will be reused after the exhibition, recycled plywood for the stage, and red fabric, which gives form and mimics the tbaba cloth.
+Tbaba as a minimalist installation is made out of low cost and sustainable materials: <a class="internal-link" href=" {% link _projects/Impermanence.md %}"> scaffolding for its structure</a> , which will be reused after the exhibition, recycled plywood for the stage, and red fabric, which gives form and mimics the tbaba cloth.
 <br> <br>
 
 ## Image Gallery

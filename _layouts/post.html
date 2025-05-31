@@ -2,23 +2,34 @@
 layout: default
 ---
 
-<article class="post">
-  {% if page.tags %}
-    <div class="post-tags">
-      {% for tag in page.tags %}
-        <span class="post-tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-  {% endif %}
-  <h1 class="post-title">{{ page.title }}</h1>
-  {% if page.description %}
-    <div class="post-description">{{ page.description }}</div>
-  {% endif %}
-  {% if page.thumbnail %}
+<div class="post-maxwidth">
+  <article class="post">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tags or page.date %}
+      <div class="post-meta-row">
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <span class="post-tag">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+        {% if page.date %}
+          <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <p> Words and photos by Gerald Jason Cruz. </p>
+
+    {% if page.thumbnail %}
     <img class="post-thumbnail" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }} thumbnail">
+    {% if page.thumbnaildesc %}
+      <div class="thumbnail-desc"><small>{{ page.thumbnaildesc }}</small></div> <br>
+    {% endif %}
   {% endif %}
-  <div class="post-content">
-    {{ content }}
-  </div>
-</article>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</div>
 
