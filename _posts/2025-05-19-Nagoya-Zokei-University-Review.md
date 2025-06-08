@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nagoya Zokei University Review"
-description: A glimpse into Riken Yamamoto's public-private university, from an outsider's perspective.
+description: A glimpse into Riken Yamamoto's public-private university.
 thumbnail: /assets/images/writings/nagoya-zokei/nagoya-zokei-thumbnail.jpeg
 thumbnaildesc: "Western view of Nagoya Zokei University from a pedestrain bridge."
 date:   2025-04-29
