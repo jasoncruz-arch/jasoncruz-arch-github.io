@@ -17,8 +17,8 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #fff; /* Match your site background */
-  border-bottom: 1px solid #eee; /* Optional: subtle separation */
+  background: #fff; 
+  border-bottom: 1px solid #eee;
   box-shadow: 0 1px 6px rgba(0,0,0,0.04); /* Optional: subtle shadow */
 }
 
@@ -31,7 +31,7 @@
 
 /* Add top margin to content so it's not hidden under the fixed header */
 .page-content {
-  margin-top: 80px; /* Adjust this value to match your header's height */
+  margin-top: 50px; /* Adjust  value to match header's height */
 }
 
 
@@ -47,7 +47,7 @@
   font-size: 40px; /* Match .site-title font-size */
   width: lh;       /* 1 line-height unit */
   height: 1.25lh;
-  color: rgb(199,39, 54);
+  color: rgb(199,39, 54); /* RED COLOR */
   margin-right: 10px;
   line-height: 1;
   display: inline-block;
@@ -670,6 +670,23 @@ body, .page-content, main {
   gap: 2rem;
   margin: 3rem 0;
 }
+
+/* Limit to 3 columns maximum */
+@media (min-width: 900px) {
+  .post-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 900px) and (min-width: 600px) {
+  .post-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
+}
 .post-item {
   border-bottom: 1px solid #eee;
   padding-bottom: 0.2rem;
@@ -769,4 +786,124 @@ body, .page-content, main {
 
 
 
+/* Image Carousel */
+.cargo-gallery {
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+}
 
+.gallery-viewport {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  height: 100%; /* or remove if not needed */
+}
+
+
+.gallery-track {
+  display: flex;
+  align-items: center;
+  transition: transform 0.8s cubic-bezier(.77,0,.18,1);
+  will-change: transform;
+  height: 100%;
+}
+
+.gallery-track img {
+  width: auto;
+  height: auto; 
+  max-height: 725px;
+  object-fit: contain;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+  flex-shrink: 0;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: "Font Awesome 5 Free", "FontAwesome", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+  padding: 0 0.7rem;
+  line-height: 1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  z-index: 2;
+  user-select: none;
+  pointer-events: auto;
+  letter-spacing: -0.2em;
+}
+.cargo-gallery:hover .gallery-arrow,
+.gallery-arrow:focus {
+  opacity: 1;
+}
+.gallery-arrow.left { left: 0.5rem; }
+.gallery-arrow.right { right: 0.5rem; }
+
+.gallery-arrow:hover,
+.gallery-arrow:focus {
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.gallery-arrow:active {
+  opacity: 0;
+}
+
+/* Pagination dots */
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 0 0;
+  gap: 0.5rem;
+}
+.gallery-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #bbb;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: none;
+  padding: 0;
+}
+.gallery-dot.active,
+.gallery-dot:hover {
+  background: rgb(199,39, 54); 
+}
+
+@media (max-width: 700px) {
+  .gallery-track img { height: 200px; }
+  .gallery-arrow { font-size: 1.3rem; }
+}
+
+.gallery-subtitle {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin: 1em 0 0 0;    /* Top margin for space from image, bottom margin for space before dots */
+  color: #888;
+  font-size: 14px;
+  line-height: 1;
+}
