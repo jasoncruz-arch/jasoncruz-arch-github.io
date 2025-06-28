@@ -32,6 +32,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+feed:
+  path: feed.xml
+
 # Projects pages
 collections:
   projects:
