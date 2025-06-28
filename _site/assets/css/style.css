@@ -648,12 +648,22 @@ table td {
   color: #099;
 }
 
+/* Shared Layout */
 .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 80% !important;
   max-width: 1400px !important;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90% !important;
+  }
+}
 .site-header {
   position: fixed !important;
   top: 0;
@@ -662,33 +672,27 @@ table td {
   z-index: 1000;
   background: #fff;
   border-bottom: 1px solid #eee;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04); /* Optional: subtle shadow */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
 }
 
-/* Ensure the wrapper inside the header does not exceed the page width */
-.site-header .wrapper {
-  margin: 0 auto;
-  width: 80% !important;
-  max-width: 1400px !important;
-}
-
-/* Add top margin to content so it's not hidden under the fixed header */
+/* Ensure content below header is pushed down */
 .page-content {
-  margin-top: 50px; /* Adjust  value to match header's height */
+  margin-top: 60px; /* adjust based on actual header height */
 }
 
 .site-title-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  float: left;
+  justify-content: flex-start;
 }
 
 .red-square {
-  font-family: Arial, sans-serif; /* NOT IBM Plex Sans */
-  font-size: 40px; /* Match .site-title font-size */
-  width: lh; /* 1 line-height unit */
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  width: lh;
   height: 1.25lh;
-  color: rgb(199, 39, 54); /* RED COLOR */
+  color: rgb(199, 39, 54);
   margin-right: 10px;
   line-height: 1;
   display: inline-block;
@@ -700,15 +704,19 @@ table td {
   font-weight: 500 !important;
   font-size: 18px !important;
   letter-spacing: 0.001em !important;
+  text-decoration: none !important;
+  color: inherit;
 }
 
-.site-title,
-.site-title:link,
-.site-title:visited,
-.site-title:hover,
-.site-title:active {
-  text-decoration: none;
-  color: inherit; /* Keeps the color unchanged on hover */
+.header-controls {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav .page-link {
@@ -724,6 +732,74 @@ table td {
 .site-nav .page-link:hover {
   color: rgb(214, 0, 0);
   text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid #eee;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 999;
+}
+
+.mobile-menu.open {
+  max-height: 300px; /* adjust as needed */
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+.mobile-wrapper {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mobile-menu .page-link {
+  color: #111;
+  text-decoration: none;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px 0;
+  transition: color 0.2s;
+  display: block;
+}
+
+.mobile-menu .page-link:hover {
+  color: rgb(214, 0, 0);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .site-nav {
+    display: none !important;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+.home-wrapper {
+  display: block;
+  width: 100%;
 }
 
 body {
@@ -936,18 +1012,62 @@ body, .page-content, main {
   font-size: 1rem;
 }
 
+/* FOOTER */
+.site-footer > .wrapper {
+  width: 80% !important;
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
 .footer-main {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-columns {
+  display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   gap: 2em;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.footer-info {
-  flex: 1 1 220px;
+.footer-info,
+.footer-contact {
+  flex: 1 1 50%; /* Equal width columns */
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
+.footer-copyright {
+  width: 100%;
+  text-align: left;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-size: 15px;
+  color: #888;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 799px) {
+  .footer-columns {
+    flex-wrap: wrap;
+    gap: 1em; /* reduced gap for mobile */
+  }
+  .footer-info,
+  .footer-contact {
+    flex: 1 1 100%;
+    margin-bottom: 0.5em; /* reduced spacing for mobile */
+  }
+}
 .footer-name {
   font-family: "IBM Plex Sans", Arial, sans-serif;
   font-weight: 500;

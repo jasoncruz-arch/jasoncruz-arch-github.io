@@ -14,11 +14,14 @@
   </head>
   <body>
     {%- include header.html -%}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home-wrapper">
         {{ content }}
       </div>
-    </main>
+    </div>
+  </main>
+
   <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -45,6 +48,13 @@
 
 
     {%- include footer.html -%}
+
+
+
+    <!-- FontAwesome (place this in <head> if not already included) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 
   </body>
 </html>

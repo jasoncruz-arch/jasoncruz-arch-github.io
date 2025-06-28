@@ -22,11 +22,11 @@
 <meta property="og:url" content="http://localhost:4000/Port-Admin-Building/" />
 <meta property="og:site_name" content="Gerald Jason Cruz" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-27T16:32:25+04:00" />
+<meta property="article:published_time" content="2025-06-28T23:10:02+04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Abu Dhabi Port Administration Building" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-27T16:32:25+04:00","datePublished":"2025-06-27T16:32:25+04:00","description":"A landmark sustainable office building in Abu Dhabi. Shortlisted as an outstanding thesis at Anthology 2024, hosted by WTA Architecture + Design Studio.","headline":"Abu Dhabi Port Administration Building","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Port-Admin-Building/"},"url":"http://localhost:4000/Port-Admin-Building/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-28T23:10:02+04:00","datePublished":"2025-06-28T23:10:02+04:00","description":"A landmark sustainable office building in Abu Dhabi. Shortlisted as an outstanding thesis at Anthology 2024, hosted by WTA Architecture + Design Studio.","headline":"Abu Dhabi Port Administration Building","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Port-Admin-Building/"},"url":"http://localhost:4000/Port-Admin-Building/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Gerald Jason Cruz" /></head>
 
@@ -36,6 +36,8 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+
+
 
 
 
@@ -60,18 +62,56 @@
 
 
   </head>
-  <body>
+  <body><script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector(".menu-toggle");
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const icon = toggle.querySelector("i");
+  const siteNav = document.querySelector(".site-nav");
+
+  function checkResize() {
+    if (window.innerWidth > 800) {
+      mobileMenu.classList.remove("open");
+      icon.classList.add("fa-bars");
+      icon.classList.remove("fa-times");
+      toggle.style.display = "none";
+      siteNav.style.display = "flex";
+    } else {
+      toggle.style.display = "block";
+      siteNav.style.display = "none";
+    }
+  }
+
+  toggle.addEventListener("click", function () {
+    mobileMenu.classList.toggle("open");
+    icon.classList.toggle("fa-bars");
+    icon.classList.toggle("fa-times");
+  });
+
+  window.addEventListener("resize", checkResize);
+  checkResize();
+});
+</script>
+
+<!-- HTML HEADER STRUCTURE ADJUSTMENT -->
 <header class="site-header">
   <div class="wrapper">
     <div class="site-title-container">
       <span class="red-square">&#9632;</span>
       <a class="site-title" href="/">Gerald Jason Cruz</a>
     </div>
-    <nav class="site-nav">
-      <a class="page-link" href="/projects/">Projects</a>
-      <a class="page-link" href="/writings/">Writings</a>
-      <a class="page-link" href="/about/">About</a>
-    </nav>
+
+    <div class="header-controls">
+      <nav class="site-nav">
+        <a class="page-link" href="/projects/">Projects</a>
+        <a class="page-link" href="/writings/">Writings</a>
+        <a class="page-link" href="/about/">About</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Abu Dhabi Port Administration Building | Gerald Jason Cruz</title>
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -83,17 +123,27 @@
 <meta property="og:url" content="http://localhost:4000/Port-Admin-Building/" />
 <meta property="og:site_name" content="Gerald Jason Cruz" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-27T16:32:25+04:00" />
+<meta property="article:published_time" content="2025-06-28T23:10:02+04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Abu Dhabi Port Administration Building" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-27T16:32:25+04:00","datePublished":"2025-06-27T16:32:25+04:00","description":"A landmark sustainable office building in Abu Dhabi. Shortlisted as an outstanding thesis at Anthology 2024, hosted by WTA Architecture + Design Studio.","headline":"Abu Dhabi Port Administration Building","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Port-Admin-Building/"},"url":"http://localhost:4000/Port-Admin-Building/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-28T23:10:02+04:00","datePublished":"2025-06-28T23:10:02+04:00","description":"A landmark sustainable office building in Abu Dhabi. Shortlisted as an outstanding thesis at Anthology 2024, hosted by WTA Architecture + Design Studio.","headline":"Abu Dhabi Port Administration Building","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Port-Admin-Building/"},"url":"http://localhost:4000/Port-Admin-Building/"}</script>
 <!-- End Jekyll SEO tag -->
 
   </div>
 </header>
+
+<!-- MOBILE MENU CONTAINER -->
+<div class="mobile-menu">
+  <div class="mobile-wrapper">
+    <a class="page-link" href="/projects/">Projects</a>
+    <a class="page-link" href="/writings/">Writings</a>
+    <a class="page-link" href="/about/">About</a>
+  </div>
+</div>
 <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <div class="wrapper">
+      <div class="home-wrapper">
         
   <div class="project-hero">
     <img src="/assets/images/projects/port-admin-building/admin-building-thumbnail.png" alt="Abu Dhabi Port Administration Building hero image">
@@ -274,7 +324,9 @@
 </article>
 
       </div>
-    </main>
+    </div>
+  </main>
+
   <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -300,14 +352,14 @@
     </script><footer class="site-footer">
   <div class="wrapper">
     <div class="footer-main">
-      <div class="footer-info">
-        <div class="footer-name">Gerald Jason Cruz</div>
-        <div class="footer-desc">Architectural Designer and Civil Engineer</div>
-      </div>
-      
-      
-      <div class="footer-contact">
-        <div>
+      <!-- Two columns container -->
+      <div class="footer-columns">
+        <div class="footer-info">
+          <div class="footer-name">Gerald Jason Cruz</div>
+          <div class="footer-desc">Architectural Designer and Civil Engineer</div>
+        </div>
+        <div class="footer-contact">
+          <div>
         <a href="mailto:gerald@jasoncruz.co" target="_blank" class="footer-social-link">
            <svg class="footer-icon" viewBox="0 0 26 26" aria-hidden="true">
   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -324,14 +376,20 @@
 </svg> Gerald Jason Cruz
         </a>
       </div>
-
-        
+        </div>
+      </div>
+      <!-- Copyright below columns -->
+      <div class="footer-copyright">
+        © 2025 Gerald Jason Cruz. All rights reserved.
       </div>
     </div>
-    <div class="footer-copyright">
-          <br> © 2025 Gerald Jason Cruz. All rights reserved.
-        </div>
   </div>
 </footer>
-</body>
+
+<!-- FontAwesome (place this in <head> if not already included) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  </body>
 </html>

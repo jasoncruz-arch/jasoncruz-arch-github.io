@@ -42,19 +42,59 @@
 
 
 
+
+
   </head>
-  <body>
+  <body><script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector(".menu-toggle");
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const icon = toggle.querySelector("i");
+  const siteNav = document.querySelector(".site-nav");
+
+  function checkResize() {
+    if (window.innerWidth > 800) {
+      mobileMenu.classList.remove("open");
+      icon.classList.add("fa-bars");
+      icon.classList.remove("fa-times");
+      toggle.style.display = "none";
+      siteNav.style.display = "flex";
+    } else {
+      toggle.style.display = "block";
+      siteNav.style.display = "none";
+    }
+  }
+
+  toggle.addEventListener("click", function () {
+    mobileMenu.classList.toggle("open");
+    icon.classList.toggle("fa-bars");
+    icon.classList.toggle("fa-times");
+  });
+
+  window.addEventListener("resize", checkResize);
+  checkResize();
+});
+</script>
+
+<!-- HTML HEADER STRUCTURE ADJUSTMENT -->
 <header class="site-header">
   <div class="wrapper">
     <div class="site-title-container">
       <span class="red-square">&#9632;</span>
       <a class="site-title" href="/">Gerald Jason Cruz</a>
     </div>
-    <nav class="site-nav">
-      <a class="page-link" href="/projects/">Projects</a>
-      <a class="page-link" href="/writings/">Writings</a>
-      <a class="page-link" href="/about/">About</a>
-    </nav>
+
+    <div class="header-controls">
+      <nav class="site-nav">
+        <a class="page-link" href="/projects/">Projects</a>
+        <a class="page-link" href="/writings/">Writings</a>
+        <a class="page-link" href="/about/">About</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa fa-bars"></i>
+      </button>
+    </div>
+
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>India and the Philippines: A Tale of Two Architectures | Gerald Jason Cruz</title>
 <meta name="generator" content="Jekyll v4.4.1" />
@@ -75,8 +115,18 @@
 
   </div>
 </header>
+
+<!-- MOBILE MENU CONTAINER -->
+<div class="mobile-menu">
+  <div class="mobile-wrapper">
+    <a class="page-link" href="/projects/">Projects</a>
+    <a class="page-link" href="/writings/">Writings</a>
+    <a class="page-link" href="/about/">About</a>
+  </div>
+</div>
 <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <div class="wrapper">
+      <div class="home-wrapper">
         <div class="post-maxwidth">
   <article class="post">
     <h1 class="post-title">India and the Philippines: A Tale of Two Architectures</h1>
@@ -114,7 +164,7 @@
 
 <p> After WWII, the two countries were left liberated after years of colonization by these western powers. Both dealing with grappling societal issues in the aftermath (for the Philippines, the utter destruction left by Japan in its wake, and for India the fallout of the partition). For the former, rebuilding as quickly as possible was the most important thing. For the latter, the birth of a new nation under crisis prompted the need for a new identity. For Indian Prime Minister Nehru at the time, that answer came in the form of an ambitious new city in the foothills of the Himalayas– Chandigarh. </p>
 
-<p> I was encouraged by architect and fellow ISM Filipino Scholar Dominic Galicia to visit Chandigarh and I made it a point to do so during my second trip to India last year. At the time, I knew it as that city ‘designed’ by Le Corbusier. It was only after experiencing it for myself that I began to understand its impact on the narrative of design in India. To summarize from&gt; my previous essay about Chandigarh, it was Le Corbusier at his truest self. It was the application of all of his beliefs of what architecture should be at a time when he was the leading mind in the field, and the contribution of his expertise with reinforced concrete as a new and innovative building material. </p>
+<p> I was encouraged by architect and fellow ISM Filipino Scholar Dominic Galicia to visit Chandigarh and I made it a point to do so during my second trip to India last year. At the time, I knew it as that city ‘designed’ by Le Corbusier. It was only after experiencing it for myself that I began to understand its impact on the narrative of design in India. To summarize from <a class="internal-link" href=" /A-Weekend-in-Chandigarh/"> my previous essay about Chandigarh</a>, it was Le Corbusier at his truest self. It was the application of all of his beliefs of what architecture should be at a time when he was the leading mind in the field, and the contribution of his expertise with reinforced concrete as a new and innovative building material. </p>
 
 <p> While searching for early reviews of the Capitol Complex, I uncovered an Architectural Digest critique by Charles Correa, an Indian architect who by his own right is renowned in his practice. It was a discussion about what is now an Indian piece of architecture in India. And this is the critical point of what foreign architecture brought to India. It teaches us something because it brings something new to the table. The benefits and the mistakes. For all its faults, Chandigarh was an experiment that ultimately gave conclusions about architecture, most importantly, to the people where it is located. If the result is failure, that’s on the foreign architect. So as a result, a design environment is created where there’s an underlying incentive to deliver the best. The result is better infrastructure for all, or in the worst case, a radical lesson that serves as a springboard to design better and puts us on the map of global architectural discourse. </p>
 
@@ -148,7 +198,9 @@
 
 
       </div>
-    </main>
+    </div>
+  </main>
+
   <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -174,14 +226,14 @@
     </script><footer class="site-footer">
   <div class="wrapper">
     <div class="footer-main">
-      <div class="footer-info">
-        <div class="footer-name">Gerald Jason Cruz</div>
-        <div class="footer-desc">Architectural Designer and Civil Engineer</div>
-      </div>
-      
-      
-      <div class="footer-contact">
-        <div>
+      <!-- Two columns container -->
+      <div class="footer-columns">
+        <div class="footer-info">
+          <div class="footer-name">Gerald Jason Cruz</div>
+          <div class="footer-desc">Architectural Designer and Civil Engineer</div>
+        </div>
+        <div class="footer-contact">
+          <div>
         <a href="mailto:gerald@jasoncruz.co" target="_blank" class="footer-social-link">
            <svg class="footer-icon" viewBox="0 0 26 26" aria-hidden="true">
   <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -198,14 +250,20 @@
 </svg> Gerald Jason Cruz
         </a>
       </div>
-
-        
+        </div>
+      </div>
+      <!-- Copyright below columns -->
+      <div class="footer-copyright">
+        © 2025 Gerald Jason Cruz. All rights reserved.
       </div>
     </div>
-    <div class="footer-copyright">
-          <br> © 2025 Gerald Jason Cruz. All rights reserved.
-        </div>
   </div>
 </footer>
-</body>
+
+<!-- FontAwesome (place this in <head> if not already included) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  </body>
 </html>
