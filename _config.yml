@@ -35,8 +35,8 @@ plugins:
 author: Gerald Jason Cruz
 
 
-feed:
-  path: feed.xml
+# feed:
+#   path: feed.xml
 
 # Projects pages
 collections:
