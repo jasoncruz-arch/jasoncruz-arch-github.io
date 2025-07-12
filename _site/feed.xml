@@ -1,21 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <link>{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}</link>
-    <description>{{ site.description | xml_escape }}</description>
-    <lastBuildDate>{{ "now" | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <title>Gerald Jason Cruz</title>
+    <link>http://localhost:4000</link>
+    <description>Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.</description>
+    <lastBuildDate>Sat, 12 Jul 2025 11:00:41 +0400</lastBuildDate>
     <language>en-us</language>
-    <atom:link href="{{ site.url | xml_escape }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 
-    {% for post in site.posts %}
+    
     <item>
-      <title>{{ post.title | xml_escape }}</title>
-      <description>{{ post.excerpt | xml_escape }}</description>
-      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <link>{{ site.url | xml_escape }}{{ post.url }}</link>
-      <guid isPermaLink="true">{{ site.url | xml_escape }}{{ post.url }}</guid>
+      <title>Nagoya Zokei University Review</title>
+      <description>&lt;p&gt;The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/Nagoya-Zokei-University-Review/</link>
+      <guid isPermaLink="true">http://localhost:4000/Nagoya-Zokei-University-Review/</guid>
     </item>
-    {% endfor %}
+    
+    <item>
+      <title>India and the Philippines: A Tale of Two Architectures</title>
+      <description>&lt;p&gt; Last January I attended the 10th edition of B+Abble, an architectural and design festival hosted by B+archan Architecture (formerly Buensalido Architects). Amongst the many fruitful conversations about Filipino architecture that emerged, a recurring theme that was brought up during keynote talks, panels, and the interviews featured in the Open and Conscious book that I picked up at the event, was the discussion of foreign architects practicing in the Philippines and what that means for the pursuit of architectural identity. It was inescapable as the venue of the festival itself, the Corner House in San Juan, was of foreign origin– designed by the Bangkok based Department of Architecture and modeled after The Commons. Most people at the event are in agreement that it is now a cornerstone of an approach towards good design in the Philippines. &lt;/p&gt;
+</description>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/</link>
+      <guid isPermaLink="true">http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/</guid>
+    </item>
+    
+    <item>
+      <title>Filinvest City Art and Architecture Walk</title>
+      <description>&lt;p&gt;Recently, I’ve been rediscovering a lot of what Filinvest City in Alabang has to offer. As a southie, the main focal point of the area for me had always been Festival Mall or Westgate, which are primarily indoor commercial spaces, along with the couple of corporate office buildings scattered around the area. I’ve been based in the United Arab Emirates for the past four years, and ever since coming back for the holidays I noticed a quiet yet increasing number of new installations and public spaces that have a surprising amount of detail and care brought to them. I think that over the past few years after the pandemic, we’ve gained a deeper appreciation for nature and third places– environments away from home and work that encourage social interactions, physical activity, and spaces for reflection. I created this guide to highlight these hidden gems, which are surprisingly accessible and interconnected within a 2 km walk. Along the way, you get to walk along the Alabang Creek and throughout the district’s different parks. I hope this guide is able to highlight and celebrate these places, and that we to continue to advocate and see more spaces like this in Manila and around the Philippines.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/</link>
+      <guid isPermaLink="true">http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/</guid>
+    </item>
+    
+    <item>
+      <title>A Weekend in Chandigarh</title>
+      <description>&lt;p&gt; I took a weekend trip from &lt;a class=&quot;internal-link&quot; href=&quot; /Garden-of-Festivities/&quot;&gt; Mumbai&lt;/a&gt; to the City Beautiful– the one nestled amongst the foothills of the Himalayas and sprawling like an open hand beyond its original bounds. Chandigarh, a union territory serving as the capital of both the states of Punjab and Haryana, is relatively unknown to non Indians with one notable exception: architects. For the latter, it is an important site as one of the few fully planned cities embodying the principles of the modernist movement. And for that honor, it earned its status as a UNESCO World Heritage Site in 2016. I certainly visited the city for this reason, intending to make a pilgrimage to the renowned Capital Complex. But after spending a few days here, I ended up leaving with a different perspective. One that challenges the legacy of architects and examines the allure of the planned city (and, of course, not forgetting to eat really good food too). &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/A-Weekend-in-Chandigarh/</link>
+      <guid isPermaLink="true">http://localhost:4000/A-Weekend-in-Chandigarh/</guid>
+    </item>
+    
+    <item>
+      <title>An outsider’s perspective on Architecture Theses in the Philippines</title>
+      <description>&lt;p&gt;Sometime in the beginning of June, I stumbled across an open call for architecture thesis submissions for the Anthology Festival, a gathering of architects and students from across the Philippines hosted by WTA Architecture + Design Studio. The competition was a chance for students to be able to present that hard work towards professionals and other students from across the country. Although I was a civil engineer who studied outside of the Philippines, at NYU Abu Dhabi, I heavily advocated doing the architectural design for an administration building of my capstone project and thought there was nothing to lose by submitting my project for the competition and seeing what happens. It ended up getting shortlisted.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/</link>
+      <guid isPermaLink="true">http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/</guid>
+    </item>
+    
+    <item>
+      <title>Building knock-offs: what is originality in Architecture?</title>
+      <description>&lt;p&gt;As the taxi pulled away from Saadiyat I became filled with excitement. After 2 weeks of quarantine, I was getting to see Abu Dhabi for the first time. We began to cross the bridge to the main island and the full skyline of the city came into view. While I was looking in awe at the dozens of buildings in the distance, I saw something that felt oddly familiar. A group of three buildings connected with a cantilever at its top stood in front of the skyline. I soon found out that these buildings were called the Gate Towers, a residential complex in Al Reem Island. Instantly, an image of another building came into mind: The Marina Bay Sands (MBS) in Singapore. It too consisted of 3 towers connected with a skybridge, built around the same time, and is an iconic destination that I have visited before.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0400</pubDate>
+      <link>http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/</link>
+      <guid isPermaLink="true">http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/</guid>
+    </item>
+    
   </channel>
 </rss>
