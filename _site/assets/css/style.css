@@ -719,9 +719,8 @@ table td {
   align-items: center;
 }
 
-.site-nav .page-link {
+header .site-nav .page-link {
   color: #888888;
-  text-decoration: none;
   margin-left: 25px;
   font-family: "IBM Plex Sans", Arial, sans-serif;
   font-weight: 400;
@@ -754,7 +753,7 @@ table td {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   padding-top: 0;
   padding-bottom: 0;
-  position: relative;
+  position: fixed;
   z-index: 999;
 }
 
@@ -774,7 +773,7 @@ table td {
 }
 
 .mobile-menu .page-link {
-  color: #111;
+  color: #888888;
   text-decoration: none;
   font-family: "IBM Plex Sans", Arial, sans-serif;
   font-weight: 400;
@@ -809,7 +808,7 @@ body {
 
 h1 {
   font-weight: 600 !important;
-  font-size: 28px !important;
+  font-size: 36px !important;
 }
 
 h2 {
@@ -1666,6 +1665,44 @@ body, .page-content, main {
   color: #888;
   font-size: 14px;
   line-height: 1;
+}
+
+/* Style the read more link to match footer-social-link */
+.read-more-link {
+  display: inline-flex;
+  align-items: center;
+  color: #888;
+  font-size: 15px;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+.read-more-link:visited {
+  color: #888;
+  text-decoration: none;
+}
+
+.post-item:hover .read-more-link {
+  color: #d60000;
+  text-decoration: none;
+}
+
+.read-more-link .arrow {
+  opacity: 0;
+  margin-left: 0.25em;
+  transition: opacity 0.2s ease-in-out, margin-left 0.2s ease-in-out;
+}
+
+.post-item:hover .read-more-link .arrow {
+  opacity: 1;
+  margin-left: 0.5em;
+}
+
+@media (max-width: 799px) {
+  .read-more-link .arrow {
+    opacity: 1 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

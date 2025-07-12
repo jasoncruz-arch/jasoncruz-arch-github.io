@@ -64,6 +64,15 @@ Tbaba as a minimalist installation is made out of low cost and sustainable mater
   <a href="/assets/images/projects/tbaba/tbaba-thumbnail.jpeg" class="glightbox" data-gallery="project-gallery">
     <img src="/assets/images/projects/tbaba/tbaba-thumbnail.jpeg" alt="Visitor interacting with the flowing fabric">
   </a>
+  <a href="/assets/images/projects/tbaba/tbaba-6.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-6.jpeg" alt="Visitor interacting with the flowing fabric">
+  </a>
+  <a href="/assets/images/projects/tbaba/tbaba-5.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-5.jpeg" alt="Visitor interacting with the flowing fabric">
+  </a>
+  <a href="/assets/images/projects/tbaba/tbaba-3.jpeg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/projects/tbaba/tbaba-3.jpeg" alt="Visitor interacting with the flowing fabric">
+  </a>
   <!-- Add more images as needed -->
 </div>
 

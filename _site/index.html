@@ -36,6 +36,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
 
+<link rel="alternate" type="application/rss+xml" title="Gerald Jason Cruz" href="/feed.xml">
 
 
 
@@ -122,10 +123,10 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="page-link" href="/about/">About</a>
   </div>
 </div>
-<main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <div class="home-wrapper">
-        <h2 class="post-list-heading">Selected Works</h2>
+<main class="page-content" aria-label="Content" style="padding-top: 4em;">
+      <div class="wrapper">
+        <div class="home-wrapper">
+          <h1 class="post-list-heading">Selected Works</h1>
 
 <div class="projects-grid">
   
@@ -155,11 +156,11 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   
 </div>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <script>
+    <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         const filterTag = urlParams.get('tag');
@@ -174,8 +175,8 @@ document.addEventListener("DOMContentLoaded", function () {
           });
         }
       });
-      </script>
-    
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -220,8 +221,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <!-- FontAwesome (place this in <head> if not already included) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 
   </body>
 </html>

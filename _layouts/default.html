@@ -14,15 +14,15 @@
   </head>
   <body>
     {%- include header.html -%}
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <div class="home-wrapper">
-        {{ content }}
+    <main class="page-content" aria-label="Content" style="padding-top: 4em;">
+      <div class="wrapper">
+        <div class="home-wrapper">
+          {{ content }}
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <script>
+    <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         const filterTag = urlParams.get('tag');
@@ -37,8 +37,8 @@
           });
         }
       });
-      </script>
-    
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -46,15 +46,10 @@
       });
     </script>
 
-
     {%- include footer.html -%}
-
-
 
     <!-- FontAwesome (place this in <head> if not already included) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 
   </body>
 </html>

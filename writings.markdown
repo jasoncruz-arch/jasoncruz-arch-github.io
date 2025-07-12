@@ -22,7 +22,11 @@ permalink: /writings/
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </div>
       <div class="post-description">
-        {{ post.description | default: post.excerpt | strip_html | truncate: 120 }}
+        {{ post.excerpt | strip_html | truncatewords: 30 }}
+        <br> <br>
+      <a href="{{ post.url | relative_url }}" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   {% endfor %}

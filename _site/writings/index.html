@@ -36,6 +36,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
 
+<link rel="alternate" type="application/rss+xml" title="Gerald Jason Cruz" href="/feed.xml">
 
 
 
@@ -122,13 +123,36 @@ document.addEventListener("DOMContentLoaded", function () {
     <a class="page-link" href="/about/">About</a>
   </div>
 </div>
-<main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <div class="home-wrapper">
-        <article class="post">
+<main class="page-content" aria-label="Content" style="padding-top: 4em;">
+      <div class="wrapper">
+        <div class="home-wrapper">
+          <article class="post">
+  <style>
+    .post-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .rss-icon {
+      width: 1.2em;
+      height: 1.2em;
+      fill: #888;
+      transition: fill 0.3s;
+    }
+    .rss-icon:hover {
+      fill: rgb(199, 39, 54);
+    }
+  </style>
 
   <header class="post-header">
-    <h2 class="post-list-heading">Writings</h2>
+    <h1 class="post-list-heading">Writings</h1>
+    
+    <a href="/feed.xml" aria-label="RSS Feed">
+      <svg class="rss-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM96 136c0-13.3 10.7-24 24-24c137 0 248 111 248 248c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24c83.9 0 152 68.1 152 152c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104c-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
+      </svg>
+    </a>
+    
   </header>
 
   <div class="post-content">
@@ -150,7 +174,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Apr 29, 2025</span>
       </div>
       <div class="post-description">
-        A glimpse into Riken Yamamoto's public-private university.
+        The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still...
+        <br /> <br />
+      <a href="/Nagoya-Zokei-University-Review/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
@@ -170,7 +198,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Feb 14, 2025</span>
       </div>
       <div class="post-description">
-        A love letter to architecture in the Philippines and my time in India.
+        Last January I attended the 10th edition of B+Abble, an architectural and design festival hosted by B+archan Architecture (formerly Buensalido Architects). Amongst the many fruitful conversations about Filipino architecture that...
+        <br /> <br />
+      <a href="/India-and-the-Philippines-A-Tale-of-Two-Architectures/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
@@ -190,7 +222,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Jan 23, 2025</span>
       </div>
       <div class="post-description">
-        A 2 km tour of hidden gems in Alabang.
+        Recently, I’ve been rediscovering a lot of what Filinvest City in Alabang has to offer. As a southie, the main focal point of the area for me had always been...
+        <br /> <br />
+      <a href="/Filinvest-City-Art-and-Architecture-Walk/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
@@ -210,7 +246,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Dec 10, 2024</span>
       </div>
       <div class="post-description">
-        The legacy of architects and the allure of the planned city.
+        I took a weekend trip from Mumbai to the City Beautiful– the one nestled amongst the foothills of the Himalayas and sprawling like an open hand beyond its original bounds....
+        <br /> <br />
+      <a href="/A-Weekend-in-Chandigarh/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
@@ -230,7 +270,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Sep 4, 2024</span>
       </div>
       <div class="post-description">
-        Reflections from Anthology Festival 2024.
+        Sometime in the beginning of June, I stumbled across an open call for architecture thesis submissions for the Anthology Festival, a gathering of architects and students from across the Philippines...
+        <br /> <br />
+      <a href="/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
@@ -250,20 +294,23 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="post-meta">Oct 4, 2020</span>
       </div>
       <div class="post-description">
-        Haven't I seen this building before?
+        As the taxi pulled away from Saadiyat I became filled with excitement. After 2 weeks of quarantine, I was getting to see Abu Dhabi for the first time. We began...
+        <br /> <br />
+      <a href="/Building-knock-offs-what-is-originality-in-Architecture/" class="read-more-link">
+          Read more <span class="arrow">&rarr;</span>
+      </a>
       </div>
     </article>
   
 </div>
 
   </div>
-
 </article>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <script>
+    <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         const filterTag = urlParams.get('tag');
@@ -278,8 +325,8 @@ document.addEventListener("DOMContentLoaded", function () {
           });
         }
       });
-      </script>
-    
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
@@ -324,8 +371,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <!-- FontAwesome (place this in <head> if not already included) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 
   </body>
 </html>

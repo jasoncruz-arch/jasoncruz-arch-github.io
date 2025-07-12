@@ -1,0 +1,142 @@
+---
+layout: default
+title: Trial Home
+permalink: /trial-home/
+---
+
+<!-- /assets/images/projects/urban-fabric/urban-fabric-thumbnail-main.jpeg -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carousel Home Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      overflow-x: hidden;
+    }
+    .carousel-container {
+      position: relative;
+      top: 60px; /* offset for fixed header */
+      width: 100vw;
+      height: calc(100vw * 7 / 16);
+      overflow: hidden;
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .carousel-track {
+      display: flex;
+      transition: transform 0.8s ease-in-out;
+      height: 100%;
+    }
+    .carousel-slide {
+      min-width: 100vw;
+      height: 100%;
+      position: relative;
+    }
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .carousel-text {
+      position: absolute;
+      bottom: 3em;
+      left: 3em;
+      color: rgba(255, 255, 255, 0.97);
+      font-size: 2.5em;
+      font-weight: 500;
+    }
+    .carousel-text .dynamic {
+      color: rgb(199, 39, 54);
+      display: inline-block;
+      transition: transform 0.8s ease-in-out;
+    }
+    .carousel-project {
+      position: absolute;
+      bottom: 1.8em;
+      left: 3em;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 1.1em;
+    }
+    .carousel-project a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .carousel-arrows {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 1em;
+      pointer-events: none;
+    }
+    .carousel-arrow {
+      font-size: 2em;
+      font-family: sans-serif;
+      font-weight: 200;
+      color: rgba(255, 255, 255, 0.85);
+      cursor: pointer;
+      user-select: none;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <div class="carousel-slide">
+        <img src="/assets/images/projects/urban-fabric/urban-fabric-thumbnail-main.jpeg" alt="Architecture">
+        <div class="carousel-text">Hyperlocal Responses Through <span class="dynamic">Architecture.</span></div>
+        <div class="carousel-project"><a href="/projects/project1">Urban Fabric, 2022</a></div>
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/slide2.jpg" alt="Engineering">
+        <div class="carousel-text">Hyperlocal Responses Through <span class="dynamic">Engineering.</span></div>
+        <div class="carousel-project"><a href="/projects/project2">Harbor Works, 2023</a></div>
+      </div>
+      <div class="carousel-slide">
+        <img src="/assets/images/slide3.jpg" alt="Design">
+        <div class="carousel-text">Hyperlocal Responses Through <span class="dynamic">Design.</span></div>
+        <div class="carousel-project"><a href="/projects/project3">Design Lab, 2024</a></div>
+      </div>
+    </div>
+    <div class="carousel-arrows">
+      <div class="carousel-arrow" id="prev">&#8249;</div>
+      <div class="carousel-arrow" id="next">&#8250;</div>
+    </div>
+  </div>
+
+  <script>
+    const track = document.querySelector('.carousel-track');
+    const slides = document.querySelectorAll('.carousel-slide');
+    let index = 0;
+
+    function updateSlide() {
+      track.style.transform = `translateX(-${index * 100}vw)`;
+    }
+
+    function nextSlide() {
+      index = (index + 1) % slides.length;
+      updateSlide();
+    }
+
+    function prevSlide() {
+      index = (index - 1 + slides.length) % slides.length;
+      updateSlide();
+    }
+
+    document.getElementById('next').addEventListener('click', nextSlide);
+    document.getElementById('prev').addEventListener('click', prevSlide);
+
+    setInterval(nextSlide, 6000);
+  </script>
+</body>
+</html>
