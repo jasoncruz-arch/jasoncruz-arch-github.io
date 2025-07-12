@@ -32,6 +32,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+author: Gerald Jason Cruz
+
+
 feed:
   path: feed.xml
 
