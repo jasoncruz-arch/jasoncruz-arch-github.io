@@ -1,68 +1,843 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gerald Jason Cruz</title>
-    <link>http://localhost:4000</link>
-    <description>Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.</description>
-    <lastBuildDate>Sat, 12 Jul 2025 11:00:41 +0400</lastBuildDate>
-    <language>en-us</language>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-12T11:13:37+04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gerald Jason Cruz</title><subtitle>Gerald Jason Cruz is an award-winning architectural designer and civil engineer based between Abu Dhabi and Manila.</subtitle><entry><title type="html">Nagoya Zokei University Review</title><link href="http://localhost:4000/Nagoya-Zokei-University-Review/" rel="alternate" type="text/html" title="Nagoya Zokei University Review" /><published>2025-04-29T00:00:00+04:00</published><updated>2025-04-29T00:00:00+04:00</updated><id>http://localhost:4000/Nagoya-Zokei-University-Review</id><content type="html" xml:base="http://localhost:4000/Nagoya-Zokei-University-Review/"><![CDATA[<p>The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.</p>
 
-    
-    <item>
-      <title>Nagoya Zokei University Review</title>
-      <description>&lt;p&gt;The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 29 Apr 2025 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/Nagoya-Zokei-University-Review/</link>
-      <guid isPermaLink="true">http://localhost:4000/Nagoya-Zokei-University-Review/</guid>
-    </item>
-    
-    <item>
-      <title>India and the Philippines: A Tale of Two Architectures</title>
-      <description>&lt;p&gt; Last January I attended the 10th edition of B+Abble, an architectural and design festival hosted by B+archan Architecture (formerly Buensalido Architects). Amongst the many fruitful conversations about Filipino architecture that emerged, a recurring theme that was brought up during keynote talks, panels, and the interviews featured in the Open and Conscious book that I picked up at the event, was the discussion of foreign architects practicing in the Philippines and what that means for the pursuit of architectural identity. It was inescapable as the venue of the festival itself, the Corner House in San Juan, was of foreign origin– designed by the Bangkok based Department of Architecture and modeled after The Commons. Most people at the event are in agreement that it is now a cornerstone of an approach towards good design in the Philippines. &lt;/p&gt;
-</description>
-      <pubDate>Fri, 14 Feb 2025 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/</link>
-      <guid isPermaLink="true">http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/</guid>
-    </item>
-    
-    <item>
-      <title>Filinvest City Art and Architecture Walk</title>
-      <description>&lt;p&gt;Recently, I’ve been rediscovering a lot of what Filinvest City in Alabang has to offer. As a southie, the main focal point of the area for me had always been Festival Mall or Westgate, which are primarily indoor commercial spaces, along with the couple of corporate office buildings scattered around the area. I’ve been based in the United Arab Emirates for the past four years, and ever since coming back for the holidays I noticed a quiet yet increasing number of new installations and public spaces that have a surprising amount of detail and care brought to them. I think that over the past few years after the pandemic, we’ve gained a deeper appreciation for nature and third places– environments away from home and work that encourage social interactions, physical activity, and spaces for reflection. I created this guide to highlight these hidden gems, which are surprisingly accessible and interconnected within a 2 km walk. Along the way, you get to walk along the Alabang Creek and throughout the district’s different parks. I hope this guide is able to highlight and celebrate these places, and that we to continue to advocate and see more spaces like this in Manila and around the Philippines.&lt;/p&gt;
-</description>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/</link>
-      <guid isPermaLink="true">http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/</guid>
-    </item>
-    
-    <item>
-      <title>A Weekend in Chandigarh</title>
-      <description>&lt;p&gt; I took a weekend trip from &lt;a class=&quot;internal-link&quot; href=&quot; /Garden-of-Festivities/&quot;&gt; Mumbai&lt;/a&gt; to the City Beautiful– the one nestled amongst the foothills of the Himalayas and sprawling like an open hand beyond its original bounds. Chandigarh, a union territory serving as the capital of both the states of Punjab and Haryana, is relatively unknown to non Indians with one notable exception: architects. For the latter, it is an important site as one of the few fully planned cities embodying the principles of the modernist movement. And for that honor, it earned its status as a UNESCO World Heritage Site in 2016. I certainly visited the city for this reason, intending to make a pilgrimage to the renowned Capital Complex. But after spending a few days here, I ended up leaving with a different perspective. One that challenges the legacy of architects and examines the allure of the planned city (and, of course, not forgetting to eat really good food too). &lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/A-Weekend-in-Chandigarh/</link>
-      <guid isPermaLink="true">http://localhost:4000/A-Weekend-in-Chandigarh/</guid>
-    </item>
-    
-    <item>
-      <title>An outsider’s perspective on Architecture Theses in the Philippines</title>
-      <description>&lt;p&gt;Sometime in the beginning of June, I stumbled across an open call for architecture thesis submissions for the Anthology Festival, a gathering of architects and students from across the Philippines hosted by WTA Architecture + Design Studio. The competition was a chance for students to be able to present that hard work towards professionals and other students from across the country. Although I was a civil engineer who studied outside of the Philippines, at NYU Abu Dhabi, I heavily advocated doing the architectural design for an administration building of my capstone project and thought there was nothing to lose by submitting my project for the competition and seeing what happens. It ended up getting shortlisted.&lt;/p&gt;
-</description>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/</link>
-      <guid isPermaLink="true">http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/</guid>
-    </item>
-    
-    <item>
-      <title>Building knock-offs: what is originality in Architecture?</title>
-      <description>&lt;p&gt;As the taxi pulled away from Saadiyat I became filled with excitement. After 2 weeks of quarantine, I was getting to see Abu Dhabi for the first time. We began to cross the bridge to the main island and the full skyline of the city came into view. While I was looking in awe at the dozens of buildings in the distance, I saw something that felt oddly familiar. A group of three buildings connected with a cantilever at its top stood in front of the skyline. I soon found out that these buildings were called the Gate Towers, a residential complex in Al Reem Island. Instantly, an image of another building came into mind: The Marina Bay Sands (MBS) in Singapore. It too consisted of 3 towers connected with a skybridge, built around the same time, and is an iconic destination that I have visited before.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 04 Oct 2020 00:00:00 +0400</pubDate>
-      <link>http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/</link>
-      <guid isPermaLink="true">http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/</guid>
-    </item>
-    
-  </channel>
-</rss>
+<p>Riken Yamamoto, who received the Pritzker Architectural Prize in 2024, is best known for his philosophy on spaces that blend the public and private. This new university campus is his most recent completed work, and thus I think represents the most up-to-date application of his architectural practice. Nagoya Zokei, which specializes in arts and design majors, relocated from Komaki City in the north of Nagoya to its current location in 2021. It was once the site of a public housing complex, and several apartment buildings can still be seen scattered around the site, thus placing it in an urban fabric that demands sensitivity from its surroundings. The very nature of the building’s site embodies Yamamoto’s philosophy– being located on top of a  subway station demands a coexistence with the public sphere. Hence the building gives way to the station beneath it by being divided into four different “cores” that serve as structural columns to the building’s upper floors. The subway exits on both the north and south end face you opposite the campus initially, as if directing the unassuming public away if one doesn’t intend on visiting the campus.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-47.jpg" alt="Perspectives of the campus as you enter." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-1.jpg" alt="Perspectives of the campus as you enter." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-36.jpg" alt="Perspectives of the campus as you enter." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Perspectives of the campus as you enter. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Upon turning around to face the university, I was greeted not by a series of different cores but by a seemingly uniform and imposing structure. Approaching the southwest corner I could see the campus building extending what seemed to be around a hundred meters in both directions. In its essence the architecture of Nagoya Zokei is simple: it uses a repeating motif of square and cube forms covered in a white materiality. Yet it is the execution of these elements that intrigues me. The building presents a distorted sense of scale, with its lower facade a brise soleil made up of thousands of tiny square openings that make it hard to distinguish how large the building actually is. The “upper campus,” which cantilevers the edges of the structure, adds to the sense of weight and scale. That is until you see it from the side, as the large windows and space between superstructure and glass facade release weight from the upper form. From around the building there is ample open space to take all of this in. The white materiality adds a sense of clinicality and purity. A blank canvas for the creative work that takes place inside.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-40.jpg" alt="Entrances into the center of the campus." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-2.jpg" alt="Entrances into the center of the campus." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Entrances into the center of the campus. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>As an outside visitor to the university, all the spaces I had access to felt liminal, transitory, and ethereal. Perhaps this is what Yamamoto intended for those merely passing through.</p>
+
+<p>It begins at the “Art Street” located in between the building cores. The seemingly uniform cores give way to openings that take you to what is essentially a covered asphalt plaza. From the north and south sides, these entrances are much wider due to the axis taken up by the subway below. Scattered around Art Street are thirteen detached buildings, once again taking up cube-like forms, forming a miniature village underneath the roof structure. These house gallery spaces, classrooms, art supply shops, and offices. Exhaust vents for the station occasionally bleed the sound of trains and foot traffic from below.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-30.jpg" alt="View from Art Street." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-6.jpg" alt="Ground Floor Plan." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  View from Art Street and Ground Floor Plan. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>From above, eight skylights pierce through the ceiling into square courtyards that break up the gray asphalt pavement. Although I visited during a particularly overcast day, these skylights let in enough light into the open space below. Some of it is direct, while some is filtered and reflected off the aqua tinted glass above. The result is a dance between light and shadow – white materials allowed scarce light to bounce off its surface, while the asphalt street absorbed the rest. The atmosphere had a blue-ish tint to it.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-11.jpg" alt="Skylights pierce through the roof into courtyars below." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-26.jpg" alt="Skylights pierce through the roof into courtyars below." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Skylights pierce through the roof into courtyars below. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>After wandering around the publicly accessible areas of the university, I found myself stumbling upon a couple of liminal spaces. Firstly were the areas in between interior and exterior. In the same way it does outside, the brise soleil wraps around the four cores from the view of the Art Street, allowing for a balance of openness and privacy. It was opaque enough to act as a wall to the interior, while still allowing a glimpse into the interior upon closer inspection. A space existed between the all white lower facade and the actual building structure behind it. There were also a couple of spaces not entirely indoors, where the facade wraps around and filters light resulting in what I can only describe as an aura from the glow of light that emanated from outside.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-9.jpg" alt="Liminal spaces in between indoors and outdoors." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-27.jpg" alt="Liminal spaces in between indoors and outdoors." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Liminal spaces in between indoors and outdoors. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Secondly were the interior spaces that I did have access to. The welcome office (which politely told me which areas I could access), the art gallery, and the cafeteria. These places felt a bit sterile to me, partially due to the abundance of white in a more enclosed space, but also because of the difference in lighting compared to the Art Street you enter from. It’s almost blindingly bright inside. You can further tell the difference when facing the Art Street from inside, as it appears pretty dark in comparison.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-28.jpg" alt="The university cafeteria, one of a limited number of publicly accessible indoor spaces." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-29.jpg" alt="The university cafeteria, one of a limited number of publicly accessible indoor spaces." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  The university cafeteria, one of a limited number of publicly accessible indoor spaces. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Lastly, between both the detached structures around the plaza and the campus building itself were a series of staircases and bridges connecting these forms. They were not closed off and assumed accessible to the public, so I found myself exploring more of the campus from this new angle above the ground. I ended up in spaces above the smaller buildings on the Art Street, not fully indoors, but somewhat private. Some chairs and tables were placed, but were arranged as if left unused for a long time. These were the spaces to me that truly felt liminal. Why were they so empty, and are there any people that actually come up here?</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-14.jpg" alt="Staircases, bridges, and outdoor spaces." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-19.jpg" alt="Staircases, bridges, and outdoor spaces." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-17.jpg" alt="Staircases, bridges, and outdoor spaces." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Staircases, bridges, and outdoor spaces. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Either by sheer luck or a demonstration from the architecture itself, I watched from above as the period ended, and students began exiting from the building all from different places. From the library core and classrooms below, to behind me from one of the doors leading from upstairs. I wondered to myself if I was intruding on their space, as I had never felt more seen or out of place. Maybe, it was what Yamamoto had intended.</p>
+
+<p>After continuing to sit in awkward silence while students poured out behind me, I made my way back to the Art Street and witnessed the campus spring to life. It was here where I began to observe how people use the programmed space. Students used the bridges and stairs outside to go from classroom to classroom. Others were gathered around the plaza, some drawing, some eating lunch, some talking with friends. Some students were looking to the skylights at awe, similar to how I was, and some were setting up outdoor games and activities. I also wandered around the buildings on Art Street and ended up in one of the galleries displaying student work, drawn by the glass unobstructed from a brise soleil facade. Inside I had a lovely conversation with one of the teachers attending to the space. With broken elementary Japanese and Google Translate in hand, I was able to tell her I was visiting the campus to view Riken Yamamoto’s building. She affectionately told me that the arena across the street was designed by [[Kengo Kuma]]. It was a conversation facilitated by the architecture of the detatched buildings, and the architect that designed them.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-23.jpg" alt="Scenes of the Art Street coming to life." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-24.jpg" alt="Scenes of the Art Street coming to life." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-33.jpg" alt="Scenes of the Art Street coming to life." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Scenes of the Art Street coming to life. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Back outside, particular group of students caught my attention. With DSLR’s in hand, they were roaming around the campus taking photos. I think it was for a class, but I believe that their curiosity wouldn’t be possible without the campus that serves as the assignment to photograph.</p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-44.jpg" alt="Scale is everything." />
+      <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Scale is everything." />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <small class="gallery-subtitle">  Scale is everything. </small>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Herein lies the realization I made as to why I think Nagoya Zokei University works. <strong>It is a building that intrigues, and therefore a building that can spark creativity.</strong> You do not need to love this building in order to respond to it. It is normal enough on first glance to be unassuming, boring even. Yet, after time, becomes unique enough to illicit questions about aesthetics and physical space. Its design is intentional enough to warrant a response.</p>
+
+<p>What I experienced was the architecture’s public facing side. The outsider’s perspective. There is a whole other world to experience as a student or faculty member. But that is an experience not afforded to me, and that I may never know. It was probably what Riken Yamamoto intended.</p>
+
+<p>A campus I do have experience with as an insider is my own alma mater, Rafael Viñoly’s NYU Abu Dhabi. You can read my perspective about that here (coming soon).</p>
+
+<!--- Gallery Carousel Script --->
+<script>
+document.querySelectorAll('.cargo-gallery').forEach(gallery => {
+  const track = gallery.querySelector('.gallery-track');
+  const images = Array.from(track.children);
+  const prevBtn = gallery.querySelector('.gallery-arrow.left');
+  const nextBtn = gallery.querySelector('.gallery-arrow.right');
+  const dotsContainer = gallery.querySelector('.gallery-dots');
+  const viewport = gallery.querySelector('.gallery-viewport');
+  let current = 0;
+  let transitioning = false;
+
+  // --- Autoplay variables ---
+  let autoPlayTimer = null;
+  const AUTO_PLAY_DELAY = 5000; // 5 seconds
+
+  // Set width for images (for responsive)
+  function setWidths() {
+    const width = viewport.offsetWidth;
+    images.forEach(img => {
+      img.style.width = width + 'px';
+    });
+    track.style.width = (images.length * width) + 'px';
+    moveTo(current, false);
+  }
+
+  // Move to slide
+  function moveTo(idx, animate = true) {
+    if (animate) {
+      track.style.transition = 'transform 0.8s cubic-bezier(.77,0,.18,1)';
+    } else {
+      track.style.transition = 'none';
+    }
+    const width = viewport.offsetWidth;
+    track.style.transform = `translateX(-${idx * width}px)`;
+    updateDots();
+  }
+
+  // Prev/Next
+  function nextSlide() {
+    if (transitioning) return;
+    transitioning = true;
+    current = (current + 1) % images.length;
+    moveTo(current, true);
+    setTimeout(() => { transitioning = false; }, 800);
+    resetAutoPlay();
+  }
+  function prevSlide() {
+    if (transitioning) return;
+    transitioning = true;
+    current = (current - 1 + images.length) % images.length;
+    moveTo(current, true);
+    setTimeout(() => { transitioning = false; }, 800);
+    resetAutoPlay();
+  }
+  nextBtn.addEventListener('click', nextSlide);
+  prevBtn.addEventListener('click', prevSlide);
+
+  // Dots
+  dotsContainer.innerHTML = '';
+  images.forEach((img, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'gallery-dot';
+    dot.setAttribute('aria-label', `Go to image ${i+1}`);
+    dot.addEventListener('click', () => {
+      if (transitioning || current === i) return;
+      transitioning = true;
+      current = i;
+      moveTo(current, true);
+      setTimeout(() => { transitioning = false; }, 800);
+      resetAutoPlay();
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  function updateDots() {
+    dotsContainer.querySelectorAll('.gallery-dot').forEach((dot, i) => {
+      dot.classList.toggle('active', i === current);
+    });
+  }
+
+  // Show/hide arrows on hover
+  function showArrows() {
+    prevBtn.style.opacity = '1';
+    nextBtn.style.opacity = '1';
+  }
+  function hideArrows() {
+    prevBtn.style.opacity = '0';
+    nextBtn.style.opacity = '0';
+  }
+  gallery.addEventListener('mouseenter', showArrows);
+  gallery.addEventListener('mouseleave', hideArrows);
+  hideArrows();
+
+  // Responsive
+  window.addEventListener('resize', setWidths);
+
+  // --- Autoplay logic ---
+  function startAutoPlay() {
+    if (autoPlayTimer) clearInterval(autoPlayTimer);
+    autoPlayTimer = setInterval(() => {
+      nextSlide();
+    }, AUTO_PLAY_DELAY);
+  }
+  function resetAutoPlay() {
+    startAutoPlay();
+  }
+
+  // Init
+  setWidths();
+  updateDots();
+  startAutoPlay();
+});
+</script>
+
+<!--- 
+<br>
+
+### Image Gallery
+
+<div class="gallery-grid">
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-1.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-1.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-2.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-2.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-6.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-6.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-11.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-11.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-9.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-9.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Nagoya Zokei University">
+  </a>
+  <a href="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" class="glightbox" data-gallery="project-gallery">
+    <img src="/assets/images/writings/nagoya-zokei/Nagoya_Zokei-45.jpg" alt="Nagoya Zokei University">
+  </a>
+</div>
+
+--->
+
+<!---
+
+<div class="post-list">
+  
+    <article class="post-item">
+      <time class="post-date">Apr 29, 2025</time>
+      <h3><a href="/Nagoya-Zokei-University-Review/">Nagoya Zokei University Review</a></h3>
+      <p><p>The journey to Nagoya Zokei University starts underground. I found myself at the Meijokoen Station of the Nagoya Metro, located just one stop away from the Nagoya Castle. Currently still undergoing renovations, the subway station below gives no hints as to the institution sitting directly above it. I made my way past plaster construction walls and uncovered ceilings to the south exit of the station.</p>
+</p>
+    </article>
+  
+    <article class="post-item">
+      <time class="post-date">Feb 14, 2025</time>
+      <h3><a href="/India-and-the-Philippines-A-Tale-of-Two-Architectures/">India and the Philippines: A Tale of Two Architectures</a></h3>
+      <p><p> Last January I attended the 10th edition of B+Abble, an architectural and design festival hosted by B+archan Architecture (formerly Buensalido Architects). Amongst the many fruitful conversations about Filipino architecture that emerged, a recurring theme that was brought up during keynote talks, panels, and the interviews featured in the Open and Conscious book that I picked up at the event, was the discussion of foreign architects practicing in the Philippines and what that means for the pursuit of architectural identity. It was inescapable as the venue of the festival itself, the Corner House in San Juan, was of foreign origin– designed by the Bangkok based Department of Architecture and modeled after The Commons. Most people at the event are in agreement that it is now a cornerstone of an approach towards good design in the Philippines. </p>
+</p>
+    </article>
+  
+    <article class="post-item">
+      <time class="post-date">Jan 23, 2025</time>
+      <h3><a href="/Filinvest-City-Art-and-Architecture-Walk/">Filinvest City Art and Architecture Walk</a></h3>
+      <p><p>Recently, I’ve been rediscovering a lot of what Filinvest City in Alabang has to offer. As a southie, the main focal point of the area for me had always been Festival Mall or Westgate, which are primarily indoor commercial spaces, along with the couple of corporate office buildings scattered around the area. I’ve been based in the United Arab Emirates for the past four years, and ever since coming back for the holidays I noticed a quiet yet increasing number of new installations and public spaces that have a surprising amount of detail and care brought to them. I think that over the past few years after the pandemic, we’ve gained a deeper appreciation for nature and third places– environments away from home and work that encourage social interactions, physical activity, and spaces for reflection. I created this guide to highlight these hidden gems, which are surprisingly accessible and interconnected within a 2 km walk. Along the way, you get to walk along the Alabang Creek and throughout the district’s different parks. I hope this guide is able to highlight and celebrate these places, and that we to continue to advocate and see more spaces like this in Manila and around the Philippines.</p>
+</p>
+    </article>
+  
+    <article class="post-item">
+      <time class="post-date">Dec 10, 2024</time>
+      <h3><a href="/A-Weekend-in-Chandigarh/">A Weekend in Chandigarh</a></h3>
+      <p><p> I took a weekend trip from <a class="internal-link" href=" /Garden-of-Festivities/"> Mumbai</a> to the City Beautiful– the one nestled amongst the foothills of the Himalayas and sprawling like an open hand beyond its original bounds. Chandigarh, a union territory serving as the capital of both the states of Punjab and Haryana, is relatively unknown to non Indians with one notable exception: architects. For the latter, it is an important site as one of the few fully planned cities embodying the principles of the modernist movement. And for that honor, it earned its status as a UNESCO World Heritage Site in 2016. I certainly visited the city for this reason, intending to make a pilgrimage to the renowned Capital Complex. But after spending a few days here, I ended up leaving with a different perspective. One that challenges the legacy of architects and examines the allure of the planned city (and, of course, not forgetting to eat really good food too). </p>
+<p><br /></p>
+</p>
+    </article>
+  
+    <article class="post-item">
+      <time class="post-date">Sep 4, 2024</time>
+      <h3><a href="/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/">An outsider’s perspective on Architecture Theses in the Philippines</a></h3>
+      <p><p>Sometime in the beginning of June, I stumbled across an open call for architecture thesis submissions for the Anthology Festival, a gathering of architects and students from across the Philippines hosted by WTA Architecture + Design Studio. The competition was a chance for students to be able to present that hard work towards professionals and other students from across the country. Although I was a civil engineer who studied outside of the Philippines, at NYU Abu Dhabi, I heavily advocated doing the architectural design for an administration building of my capstone project and thought there was nothing to lose by submitting my project for the competition and seeing what happens. It ended up getting shortlisted.</p>
+</p>
+    </article>
+  
+    <article class="post-item">
+      <time class="post-date">Oct 4, 2020</time>
+      <h3><a href="/Building-knock-offs-what-is-originality-in-Architecture/">Building knock-offs: what is originality in Architecture?</a></h3>
+      <p><p>As the taxi pulled away from Saadiyat I became filled with excitement. After 2 weeks of quarantine, I was getting to see Abu Dhabi for the first time. We began to cross the bridge to the main island and the full skyline of the city came into view. While I was looking in awe at the dozens of buildings in the distance, I saw something that felt oddly familiar. A group of three buildings connected with a cantilever at its top stood in front of the skyline. I soon found out that these buildings were called the Gate Towers, a residential complex in Al Reem Island. Instantly, an image of another building came into mind: The Marina Bay Sands (MBS) in Singapore. It too consisted of 3 towers connected with a skybridge, built around the same time, and is an iconic destination that I have visited before.</p>
+</p>
+    </article>
+  
+</div> --->]]></content><author><name></name></author><category term="Photo Essay" /><summary type="html"><![CDATA[A glimpse into Riken Yamamoto's public-private university.]]></summary></entry><entry><title type="html">India and the Philippines: A Tale of Two Architectures</title><link href="http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/" rel="alternate" type="text/html" title="India and the Philippines: A Tale of Two Architectures" /><published>2025-02-14T00:00:00+04:00</published><updated>2025-02-14T00:00:00+04:00</updated><id>http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures</id><content type="html" xml:base="http://localhost:4000/India-and-the-Philippines-A-Tale-of-Two-Architectures/"><![CDATA[<p> Last January I attended the 10th edition of B+Abble, an architectural and design festival hosted by B+archan Architecture (formerly Buensalido Architects). Amongst the many fruitful conversations about Filipino architecture that emerged, a recurring theme that was brought up during keynote talks, panels, and the interviews featured in the Open and Conscious book that I picked up at the event, was the discussion of foreign architects practicing in the Philippines and what that means for the pursuit of architectural identity. It was inescapable as the venue of the festival itself, the Corner House in San Juan, was of foreign origin– designed by the Bangkok based Department of Architecture and modeled after The Commons. Most people at the event are in agreement that it is now a cornerstone of an approach towards good design in the Philippines. </p>
+
+<p> The thought exercise intrigued me, and I couldn’t help but draw from my experience working in and exploring the architecture of one particular country over the past year: India. There are many similarities in the narratives that shape both of our cultures, and I feel that the course of history of architecture there gives insight into the ‘what if?’ or the ‘when it ends up happening’ of the context of international architecture in the country. I was compelled to write this essay shortly after, and will be dividing it into two sections: the first explores the past 80 years of architecture in both countries, the moment in which I believe the paths diverge, and the second will explore the present implications of these divergences and what it means for a now blooming Filipino design scene. </p>
+<p><br /></p>
+
+<h4 id="the-past">The Past.</h4>
+
+<p> I see the Philippines and India as two countries which diverged from similar paths after the end of World War II. I recognize this is a vast oversimplification, but it sets the stage for how architecture developed in each respective country. While India in itself has had an arguably richer history of architecture preceding the 20th century, the architecture of the 1900s was dominated by the respective colonial powers. For the Philippines, it was the construction of neo-classical buildings that reflect the order and stability of power being projected by the United States. Think the Manila Post Office, Philippine Senate Building (now the National Museum of Fine Arts), numerous provincial capitols, and the various urban plans dreamed up by Daniel Burnham. For India, it’s an adapted indo-gothic style that dominated colonial offices across the country. See the Chhatrapati Shivaji Maharaj (formerly Victoria) train station terminus and the Taj Mahal Palace in Mumbai as an example. </p>
+
+<p> After WWII, the two countries were left liberated after years of colonization by these western powers. Both dealing with grappling societal issues in the aftermath (for the Philippines, the utter destruction left by Japan in its wake, and for India the fallout of the partition). For the former, rebuilding as quickly as possible was the most important thing. For the latter, the birth of a new nation under crisis prompted the need for a new identity. For Indian Prime Minister Nehru at the time, that answer came in the form of an ambitious new city in the foothills of the Himalayas– Chandigarh. </p>
+
+<p> I was encouraged by architect and fellow ISM Filipino Scholar Dominic Galicia to visit Chandigarh and I made it a point to do so during my second trip to India last year. At the time, I knew it as that city ‘designed’ by Le Corbusier. It was only after experiencing it for myself that I began to understand its impact on the narrative of design in India. To summarize from <a class="internal-link" href=" /A-Weekend-in-Chandigarh/"> my previous essay about Chandigarh</a>, it was Le Corbusier at his truest self. It was the application of all of his beliefs of what architecture should be at a time when he was the leading mind in the field, and the contribution of his expertise with reinforced concrete as a new and innovative building material. </p>
+
+<p> While searching for early reviews of the Capitol Complex, I uncovered an Architectural Digest critique by Charles Correa, an Indian architect who by his own right is renowned in his practice. It was a discussion about what is now an Indian piece of architecture in India. And this is the critical point of what foreign architecture brought to India. It teaches us something because it brings something new to the table. The benefits and the mistakes. For all its faults, Chandigarh was an experiment that ultimately gave conclusions about architecture, most importantly, to the people where it is located. If the result is failure, that’s on the foreign architect. So as a result, a design environment is created where there’s an underlying incentive to deliver the best. The result is better infrastructure for all, or in the worst case, a radical lesson that serves as a springboard to design better and puts us on the map of global architectural discourse. </p>
+
+<p> The grander ambitions of architecture in the Philippines came much later, during the rule of Ferdinand Marcos. It was here when the post-war architectural identity began to show itself since architecture was used as a tool to cement the Marcos’ power (see: edifice complex). The difference is that the ambition wasn’t as grand as India’s. We never really had the ambition to create a new capital (or at least, wasted the opportunity to do so) at the same scale. There weren’t any architectural experiments like India’s Auroville. At the time, the country was faced with different priorities. </p>
+
+<p> We had a few key architects, most notably Leandro Locsin. His approach to brutalism in a tropical environment is of course worth celebrating, but I wonder what would have happened to the state of Filipino architecture if we didn’t have Locsin. I am continually surprised that his work isn’t as well known outside of the Philippines. The world of brutalism was fairly saturated at that point, and it was hard to compete with the likes of Le Corbusier and Niemeyer in terms of recognition and scale. But even in other circles of tropical vernacular, architects like Geoffrey Bawa are more celebrated. Why is this the case? Most likely due to the insular nature of not just our country, but how we treat architecture. When we close ourselves off, we remove our voice in international architectural discourse. </p>
+
+<p> The gatekeeping of our best architecture at the time didn’t just have a global consequence, it was a local one too. When looking back at our own 20th century architecture, many of the most notable buildings were not easily accessible or designed for the general public at the time. They were luxury hotels, private government institutions, office buildings, and specialty hospitals. There’s a lack of museums, libraries, and other buildings that provided for the people rather than merely projecting power. And the very few institutions we have left standing are being and have continually been under the threat of demolition to be replaced with something newer. When we aren’t able to communicate and experience good architecture in our own country, we aren’t able to appreciate its importance and continue to build upon it. </p>
+<p><br /></p>
+
+<h4 id="the-present">The Present.</h4>
+
+<p> In the Philippines, architectural insularity has continued into the present. I am an example of that byproduct of architectural protectionism. I wanted to study architecture even before I was in highschool. Despite all this, one of the reasons why I opted to study civil engineering was because of the warning that the moment I stepped foot abroad, any architecture degree would not be recognized at home. In contrast, my civil engineering degree was recognized by the Commission on Higher Education 6 months after I graduated. </p>
+
+<p> A good friend of mine, an Indian architect who graduated from the UAE with a 5 year US B.Arch degree, is able to practice in India. With a global perspective but a deep, local connection, he is able to contribute to the built environment of his home country. Still today, foreign educated architects, Filipino or otherwise, cannot practice here without repeating architecture school. Their ideas can be heard and implemented, but the hurdles that have to be jumped in order for that to happen hinders their effectiveness. That’s not to say no foreign firms have designed here– it’s just that many are in agreement that the work they deliver here is not their best. It’s still something for locals to learn from, in particular architects of record. But as Judith Torres best put in her interview in Open and Conscious, the limitations have resulted in projects in the Philippines that don't reflect their highest values or standards. </p>
+
+<p> Another issue that came up in Babble and in Br. Lanyi’s book was about the notion that the public does not know what good design is, because we have yet to experience it. We have not been able to experience it to its fullest extent. And while the discourse around good design is spreading amongst fellow designers in the field, it isn’t reaching the general public at the same rate. </p>
+
+<p> In India, my time in Mumbai was spent <a class="internal-link" href=" /Garden-of-Festivities/"> collaborating with a collective called Urbz</a>. It was founded not by architects, but by social anthropologists. Yet, their mission is clear: to promote user generated cities, that is, cities designed by the people who live in them. Their work in Mumbai is concentrated around Dharavi Koliwada, an indigenous fishing community. Dharavi has an infamous reputation as Asia’s largest “slum”, but the fishing community had its roots in the banks of the Mithi River long when Mumbai was a series of 7 islands. The Filipino equivalent is Tondo: imagine that the families that fished the Manila Bay stayed in the same settlement for hundreds of years, and the sprawl of the city encroached and surrounded it. </p>
+
+<p> Urbz’s methodology always involves the community of the Koliwada directly. They host workshops called “urban typhoons” where members of the community come together to voice their concerns and aspirations for their built environment. They are intertwined with the Koli Jamat Trust (the equivalent of a Barangay) for their projects. Occasionally, they let a group of NYU Abu Dhabi engineers have a go at solving the community’s pressing design challenges. The collective was sparked by a collaboration between an Indian and a Swiss, and their collective has now grown to offices in Paris, Geneva, and Bogota. While I was there, I had the honor of learning about the Dharavi Koliwada community and contributing to their infrastructure. I met several members of the Koliwada that were surprised and grateful that non-Indians were having engaging discussions and working to improve their community. Importantly, I was able to make connections to the many similarities and subtle differences between Koliwada and Barangay life that I will continue to take with me while I evolve as a designer. </p>
+<p><br /></p>
+
+<h4 id="the-future">The Future.</h4>
+
+<p> The analogies I make here are in no means perfect. India is ten times larger (in area and in population) than the Philippines. The result is more opportunities and places to practice in, but also a larger pool of designers. But my experience is a perspective that I hope provides some insight into architectural communication in another corner of the world. I do think we’re lacking an organization like Urbz in the Philippines, or at least the same level of excitement to champion good design. Don’t get me wrong, I love the developments of architectural discourse in the field of architecture, but beyond our field it seldom exists. How can the public engage in what it wants if that discourse does not exist? The difference that I see between both countries is that India has been more open to receiving design in general. The past decades of receiving revolutionary architects of the time has developed a culture that is more open to critiquing and advocating for what design means and what it can do. But after the discussions I engaged with at B+Abble, I think the Philippines is on that trajectory now. And that trajectory seems exponential. I’m excited about that future, and the potential of being able to contribute more towards those meaningful conversations and projects that will define what Filipino design will be– something for all. </p>]]></content><author><name></name></author><category term="Essay" /><summary type="html"><![CDATA[A love letter to architecture in the Philippines and my time in India.]]></summary></entry><entry><title type="html">Filinvest City Art and Architecture Walk</title><link href="http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/" rel="alternate" type="text/html" title="Filinvest City Art and Architecture Walk" /><published>2025-01-23T00:00:00+04:00</published><updated>2025-01-23T00:00:00+04:00</updated><id>http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk</id><content type="html" xml:base="http://localhost:4000/Filinvest-City-Art-and-Architecture-Walk/"><![CDATA[<p>Recently, I’ve been rediscovering a lot of what Filinvest City in Alabang has to offer. As a southie, the main focal point of the area for me had always been Festival Mall or Westgate, which are primarily indoor commercial spaces, along with the couple of corporate office buildings scattered around the area. I’ve been based in the United Arab Emirates for the past four years, and ever since coming back for the holidays I noticed a quiet yet increasing number of new installations and public spaces that have a surprising amount of detail and care brought to them. I think that over the past few years after the pandemic, we’ve gained a deeper appreciation for nature and third places– environments away from home and work that encourage social interactions, physical activity, and spaces for reflection. I created this guide to highlight these hidden gems, which are surprisingly accessible and interconnected within a 2 km walk. Along the way, you get to walk along the Alabang Creek and throughout the district’s different parks. I hope this guide is able to highlight and celebrate these places, and that we to continue to advocate and see more spaces like this in Manila and around the Philippines.</p>
+
+<p><img src="/assets/images/writings/
+filinvest-arch/filinvest-map.png" alt="Map showing the Art and Architecture Walking route within Filinvest City, starting near Landmark at Festival Mall." width="600" style="display:block; margin-left:auto; margin-right:auto;" /></p>
+
+<p><small> Map showing the Art and Architecture Walking route within Filinvest City, starting near Landmark at Festival Mall. </small></p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/BPS_Building.jpg" alt="BPS Building Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/BPS_Building-2.jpg" alt="BPS Building Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_4827.jpg" alt="BPS Building Photo 3" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="1-biological-production-services-bps-building">1: Biological Production Services (BPS) Building</h4>
+<p>Unknown architect (1924), Headroom CDV – Renovation (2017)</p>
+
+<p>The walking tour starts at the restored BPS building beside the Landmark dropoff area in Festival Mall. It was built in the Art Deco style prevalent in many institutional buildings at the time. The building’s origins trace back to the Alabang Serum Vaccine Laboratory, a once 110-hectare large medical compound that researched tropical diseases. The building sat abandoned for many years and was under threat of demolition until it was restored and integrated into the new expansion wing of Festival Mall. It currently hosts the Las Flores restaurant and is a great example of adaptive reuse– showing that we can save and integrate existing heritage structures.</p>
+
+<p>At the rotunda in front of the building stands a replica of José Rizal’s sculpture, The Triumph of Science over Death– a nude woman bearing a torch while standing on top of a skull. Framed behind it is the BPS Building itself. Its distinctive Art Deco architectural style can be seen in the intricate details of its facade. Ornamentation adorns the central block of the building, with distinct lines radiating from the second floor window, seals adorning the corners, and geometric patterns on the top of the structure, as well as the building’s windows. Extruded sun shades run horizontally from both sides of the building until they reach a rounded corner characterized by the streamlined design of the Art Deco movement. The building further stands on an elevated podium, invoking a sense of stability and progress, also most likely to prevent flooding from the nearby Alabang creek. Due to its similarities to other institutional buildings at the time, such as the Metropolitan Theater in Manila, it is thought to have been designed by Filipino architect Juan Arellano. However, its true architect has been lost to time.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/Filinvest_Walk-3.jpg" alt="Water Garden Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_2578.jpg" alt="Water Garden Photo 2" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="2-festival-mall-water-garden">2: Festival Mall Water Garden</h4>
+<p>Filinvest Development Corporation (2017)</p>
+
+<p>A quick walk through the expansion wing of Festival Mall brings us to the Water Garden, a thoughtfully designed riverside promenade that runs along both sides of the Alabang Creek. Fully surrounded by the expansion wing, it brings an almost foreign concept compared to most malls in the Philippines by not just creating an air conditioned box but carving out an open waterfront park that integrates the convenience of a shopping mall with the energy of a public space. As a result, the space feels intentional. It gives people room to breathe. And its attendance shows. There’s rarely a day that I don’t see people using the space– from students and friends sitting on stepped staircases and (albeit fake) grass lawns, to couples, families and kids running around. On certain occasions the park also hosts food stalls, markets, and concerts. It’s a rare example of such a dynamic type of space in the Philippines and shows a demand for more spaces like this elsewhere in Manila.</p>
+
+<p>Despite being surrounded by the mall, the Water Garden is accessible without needing to enter the building. Its connectivity is thanks to the river walk that runs alongside the Alabang Creek, connecting the Water Garden to the South Station transport terminal on one end, to more greenspaces and parks on the other. The latter is the route to take for the next stop of the tour.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/IMG_2758.jpg" alt="Our Lady of Lourdes Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_5064.jpg" alt="Our Lady of Lourdes Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/Filinvest_Walk-2.jpg" alt="Our Lady of Lourdes Photo 3" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="3-our-lady-of-lourdes-chapel">3: Our Lady of Lourdes Chapel</h4>
+<p>Hiroshi Nakamura and NAP Architects (2022)</p>
+
+<p>Located at the River Park, the Our Lady of Lourdes Chapel is the most architectural stop of this tour. By architectural, I mean that as a space it is the most experiential. One that I think captures the essence of why thoughtful architectural design is so important.</p>
+
+<p>The main chapel building is a parametric design that forms the shape of an inverted White Lily that appears to barely touch the ground. The exterior white tiling creates gridlines that highlight the chapel’s unique shape, and combined with its gray exterior glass, is very reminiscent of a Zaha Hadid building. The harsh tropical elements haven’t been easy on the white facade, as some dirt and moss buildup can be seen in a way that reveals how water flows down when it rains. In a way, I think it makes the building feel grounded.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/IMG_5069.jpg" alt="Our Lady of Lourdes Photo 4" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_5080.jpg" alt="Our Lady of Lourdes Photo 5" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_5072.jpg" alt="Our Lady of Lourdes Photo 6" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<p>Humbling would be the best word to encapsulate the design. As you approach the building, the petal-like ends of the chapel create a covered entrance that makes you feel protected and welcome. Once you enter, the space inside expands to reveal a surprisingly tall interior leading to a congregation hall sunken altar. The skylight above rises to 98 feet high, and the once gray tinted glass openings are revealed to be adorned with a beautiful stained glass composition by Helen Whittaker, a British designer. A rainbow of light contrasts the sleek white aluminum strips of the ceiling that gradually meet the ground. Below, dark materials such as wood and granite further contrast with the white aluminum finish, giving the ceiling a sense of weightlessness and grounding the congregation hall.</p>
+
+<p>I can go on more about the intricate details and observations, but the takeaway is this: the chapel is an example of how good architecture is enriching, and more than the sum of its parts. I’d recommend spending the most amount of time in this tour at the Our Lady of Lourdes Chapel to experience it for yourself.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/IMG_2793.jpg" alt="Islands Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_2821.jpg" alt="Islands Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_2817.jpg" alt="Islands Photo 3" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_2836.jpg" alt="Islands Photo 4" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="4-islands">4: Islands</h4>
+<p>Pete Jimenez (2024)</p>
+
+<p>Located in a semi-accessible area next to a condo showroom, it’s almost easy to miss this series of five sculptures that blend with gray infrastructure and reflect the greenery around them. Islands is the newest of public art installations in Filinvest City installed at the end of 2024. These metal sculptures are shaped like folded paper boats of various sizes, scattered around the secluded greenspace. Each boat has a different metal finish, some are chrome, matte, bumpy, and dented. The image of a simple and universal object at this scale evokes a sense of childhood wonder and references Filipino identity and our connection to the sea. Three of the larger boats represent the island groups– Luzon, Visayas, and Mindanao– while the two smaller ones symbolize the youth of the country, sharing a message of optimism and a reminder of our roots. An unintended outcome of their placement underneath trees is that a lot of leaves and branches get collected inside the boats. Whether they are regularly cleaned and emptied is currently a mystery to me.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/Ikigai.jpg" alt="Ikigai Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/Filinvest-Art-10.jpg" alt="Ikigai Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/Filinvest-Art-11.jpg" alt="Ikigai Photo 3" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="5-ikigai">5: Ikigai</h4>
+<p>Jinggoy Buensuceso (2019)</p>
+
+<p>A short walk away at the front of the Parkway Corporate building is an installation that’s hard to miss. Ikigai is a bold sculpture consisting of various red metal sheets folded and crumpled in different directions. Its name is a reference to the Japanese concept meaning “a reason for being”, or one’s purpose in life. The form of the sculpture evokes the rays of the morning sun and signifies a strong passion for life. Its unique color certainly allows it to stand out, something I’m guilty of using as it reminds me of a lot of my own work too.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/Bookstop.jpg" alt="Book Stop Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/Filinvest-Art-12.jpg" alt="Book Stop Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/FilinvestPark-3.jpg" alt="Book Stop Photo 3" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="6-the-book-stop-project-pavilion">6: The Book Stop Project Pavilion</h4>
+<p>WTA Design Studio (2024)</p>
+
+<p>Hosted at the Filinvest Central Park, the Book Stop Project is an initiative of <a class="internal-link" href=" /An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/"> WTA Design Studio</a>  to create community libraries where people can gather to borrow, lend, donate, and read books. The circular pavilion at Filinvest Central Park is the project’s fifth iteration, with other pavilions located at Ayala Triangle Gardens and Intramuros. Unlike their previous designs, this Book Stop consists of primarily translucent polycarbonate panels that allow a lot of natural light to enter the space making it feel open, welcoming and attended to. Shelves radiate around the walls, interrupted by a few seating benches. Occasionally, cats will make themselves at home on the shelves too. Although small and relatively simple, the pavilion is a great example of the effectiveness of social architecture– how small yet thoughtful interventions in our environment can positively contribute to our daily lives, something I aim to achieve with my practice.</p>
+
+<p><br /></p>
+
+<div class="cargo-gallery">
+  <button class="gallery-arrow left" aria-label="Previous">&#xf053;</button>
+  <div class="gallery-viewport">
+    <div class="gallery-track">
+      <!-- Slides will be cloned by JS for infinite effect -->
+      <img src="/assets/images/writings/filinvest-arch/IMG_5005.jpg" alt="Tree Pavilion Photo 1" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_4984.jpg" alt="Tree Pavilion Photo 2" />
+      <img src="/assets/images/writings/filinvest-arch/IMG_2663.jpg" alt="Tree Pavilion Photo 3" />
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+  <button class="gallery-arrow right" aria-label="Next">&#xf054;</button>
+  <div class="gallery-dots"></div>
+</div>
+
+<h4 id="7-the-tree-pavilion">7: The Tree Pavilion</h4>
+<p>Filinvest Development Corporation (2024)</p>
+
+<p>The centerpoint of the park is the Tree Pavilion, a canopy consisting of three curvilinear columns sprouting like trees. Tensile fabric wraps around the structure creating volume and depth. The minimalist structure provides a shaded open space during the day and serves as an anchorpoint for stages when it hosts events. At night, light is projected onto the structure, with the fabric diffusing it in a way that creates smooth gradients between them. Next door to the space, the Ikea Vibe Park hosts various outdoor furniture from their in-store offerings, acting as both an outdoor showroom and a social public space.</p>
+
+<p><br /> <img src="/assets/images/writings/filinvest-arch/FilinvestPark-10.jpg" alt="Views of the greenspace at Filinvest Central Park" style="padding-bottom: 10px;" /> 
+<small> Views of the greenspace at Filinvest Central Park </small> <br /></p>
+
+<p>The tour ends here at the Filinvest Central Park, where the lush green space provides an escape from the manmade infrastructure of the city. What you’d like to do next is up to you– take a breather at the Ikea Vibe Park next door, which acts as both an outdoor showroom and a social public space, bike around with a rental booth available nearby, or read a book at the Book Stop pavilion. Whether you’re a design enthusiast or simply curious, I hope this walk through Filinvest City’s hidden treasures showed you how art, architecture, and urban design can create pleasant and meaningful experiences.</p>
+
+<p>Which of these places inspired you the most? Let me know <a class="internal-link" href="https://www.instagram.com/jasoncruz.arch" target="_blank">@jasoncruz.arch</a></p>
+
+<!--- Gallery Carousel Script --->
+<script>
+document.querySelectorAll('.cargo-gallery').forEach(gallery => {
+  const track = gallery.querySelector('.gallery-track');
+  const images = Array.from(track.children);
+  const prevBtn = gallery.querySelector('.gallery-arrow.left');
+  const nextBtn = gallery.querySelector('.gallery-arrow.right');
+  const dotsContainer = gallery.querySelector('.gallery-dots');
+  const viewport = gallery.querySelector('.gallery-viewport');
+  let current = 0;
+  let transitioning = false;
+
+  // --- Autoplay variables ---
+  let autoPlayTimer = null;
+  const AUTO_PLAY_DELAY = 5000; // 5 seconds
+
+  // Set width for images (for responsive)
+  function setWidths() {
+    const width = viewport.offsetWidth;
+    images.forEach(img => {
+      img.style.width = width + 'px';
+    });
+    track.style.width = (images.length * width) + 'px';
+    moveTo(current, false);
+  }
+
+  // Move to slide
+  function moveTo(idx, animate = true) {
+    if (animate) {
+      track.style.transition = 'transform 0.8s cubic-bezier(.77,0,.18,1)';
+    } else {
+      track.style.transition = 'none';
+    }
+    const width = viewport.offsetWidth;
+    track.style.transform = `translateX(-${idx * width}px)`;
+    updateDots();
+  }
+
+  // Prev/Next
+  function nextSlide() {
+    if (transitioning) return;
+    transitioning = true;
+    current = (current + 1) % images.length;
+    moveTo(current, true);
+    setTimeout(() => { transitioning = false; }, 800);
+    resetAutoPlay();
+  }
+  function prevSlide() {
+    if (transitioning) return;
+    transitioning = true;
+    current = (current - 1 + images.length) % images.length;
+    moveTo(current, true);
+    setTimeout(() => { transitioning = false; }, 800);
+    resetAutoPlay();
+  }
+  nextBtn.addEventListener('click', nextSlide);
+  prevBtn.addEventListener('click', prevSlide);
+
+  // Dots
+  dotsContainer.innerHTML = '';
+  images.forEach((img, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'gallery-dot';
+    dot.setAttribute('aria-label', `Go to image ${i+1}`);
+    dot.addEventListener('click', () => {
+      if (transitioning || current === i) return;
+      transitioning = true;
+      current = i;
+      moveTo(current, true);
+      setTimeout(() => { transitioning = false; }, 800);
+      resetAutoPlay();
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  function updateDots() {
+    dotsContainer.querySelectorAll('.gallery-dot').forEach((dot, i) => {
+      dot.classList.toggle('active', i === current);
+    });
+  }
+
+  // Show/hide arrows on hover
+  function showArrows() {
+    prevBtn.style.opacity = '1';
+    nextBtn.style.opacity = '1';
+  }
+  function hideArrows() {
+    prevBtn.style.opacity = '0';
+    nextBtn.style.opacity = '0';
+  }
+  gallery.addEventListener('mouseenter', showArrows);
+  gallery.addEventListener('mouseleave', hideArrows);
+  hideArrows();
+
+  // Responsive
+  window.addEventListener('resize', setWidths);
+
+  // --- Autoplay logic ---
+  function startAutoPlay() {
+    if (autoPlayTimer) clearInterval(autoPlayTimer);
+    autoPlayTimer = setInterval(() => {
+      nextSlide();
+    }, AUTO_PLAY_DELAY);
+  }
+  function resetAutoPlay() {
+    startAutoPlay();
+  }
+
+  // Init
+  setWidths();
+  updateDots();
+  startAutoPlay();
+});
+</script>]]></content><author><name></name></author><category term="Guide" /><summary type="html"><![CDATA[A 2 km tour of hidden gems in Alabang.]]></summary></entry><entry><title type="html">A Weekend in Chandigarh</title><link href="http://localhost:4000/A-Weekend-in-Chandigarh/" rel="alternate" type="text/html" title="A Weekend in Chandigarh" /><published>2024-12-10T00:00:00+04:00</published><updated>2024-12-10T00:00:00+04:00</updated><id>http://localhost:4000/A-Weekend-in-Chandigarh</id><content type="html" xml:base="http://localhost:4000/A-Weekend-in-Chandigarh/"><![CDATA[<p> I took a weekend trip from <a class="internal-link" href=" /Garden-of-Festivities/"> Mumbai</a> to the City Beautiful– the one nestled amongst the foothills of the Himalayas and sprawling like an open hand beyond its original bounds. Chandigarh, a union territory serving as the capital of both the states of Punjab and Haryana, is relatively unknown to non Indians with one notable exception: architects. For the latter, it is an important site as one of the few fully planned cities embodying the principles of the modernist movement. And for that honor, it earned its status as a UNESCO World Heritage Site in 2016. I certainly visited the city for this reason, intending to make a pilgrimage to the renowned Capital Complex. But after spending a few days here, I ended up leaving with a different perspective. One that challenges the legacy of architects and examines the allure of the planned city (and, of course, not forgetting to eat really good food too). </p>
+<p><br /></p>
+
+<h4 id="the-capital-complex-and-le-corbusier">The Capital Complex and Le Corbusier</h4>
+
+<p>They say to never meet your heroes, but when one arrives in Chandigarh, who exactly are you meeting? The answer, at face value, is the infamous Le Corbusier, lesser known as Charles-Édouard Jeanneret. Le Corbusier had already been practicing for over forty years before being selected to design key buildings for a new planned city in India in the late 1940s. I say “design key buildings” because Chandigarh as a concept existed before he was brought onto the project. After already propelling concrete as a utilitarian material of the future and gaining worldwide architectural fame, what made Chandigarh special was it was a culmination of Le Corbusier’s years of experience and architectural philosophy. Here was a blank slate: a vast swath of farm land, a large budget to work with, for an audience that looked up to him, for a province recently split in two and for a country in search of an identity. And in a way it was Le Corbusier in his purest, most unapologetic self. There was no need to prove himself, and there was almost free reign to design as he saw fit.</p>
+
+<p><br /> <img src="/assets/images/writings/weekend-in-chandigarh/Chandigarh-4.jpg" alt="The entrance of the High Court of Punjab and Haryana" style="padding-bottom: 10px;" /> 
+<small> The entrance of the High Court of Punjab and Haryana. </small> <br /></p>
+
+<p>When one enters the Capital Complex, one enters an architectural sanctuary closed off to the rest of the city. While there have been many reviews on the architecture of the complex, what I noticed in particular was how the monumental and imposing structures Corb designed actively try to fight the passage of time. How can something as immortal and immovable as raw concrete evolve? The stories they tell are seen in the subtle interventions throughout the site over its seventy year history. The utilitarian slab of concrete at the center of the site, once originally serving as a parking lot, is now an empty expanse absorbing the humidity and heat of the summer. The Open Hand monument, along with other designed spaces for the public and expression are now closed off by barbed wires and patrolled by armed forces due to security concerns. The sweeping facades of buildings, with their béton brut surfaces give way to hastily installed CCTV cameras, air conditioning units, and satellite dishes. Ponds and channels once designed to hold water to reflect the buildings beneath them are shallow, drained, and in need of repair. Outdoor stairs and ramps designed to serve as communal paths are devoid of people. All of these things seemed out of place.</p>
+
+<p>Paradoxically however, it made sense, for the entire concept of the Capital Complex was in itself out of place. Le Corbusier had made no serious effort to adapt the architecture he created to the foothills of the Himalayas. The result is a transplanted philosophy, an architecture that is Indian only because it exists in India. An architecture that had its ideals and functions cemented in place since its foundations were poured. So in the moment when the state of Haryana eventually separated from Punjab, and both states wanted to retain Chandigarh as their capital, the entire functionality that Le Corb had envisioned for the Capital Complex broke down. And for that reason, we cannot blame the desires and needs of the people to destroy his vision for the sake of making it usable. Le Corbusier’s ego lost the battle with time, and we’re now left with the concrete shells wanting to stay frozen, but having to accept time’s passage.</p>
+
+<p><img src="/assets/images/writings/weekend-in-chandigarh/PXL_20240720_052516423.MP.jpg" alt=" Foreground: The Palace of Assembly. Background: The Secretariat Building." style="display: block; width: 100vw; max-width: 100vw; margin-left: 50%; transform: translateX(-50%); height: auto; padding-bottom: 10px;" /> 
+<small>  Foreground: The Palace of Assembly. Background: The Secretariat Building. </small> <br /></p>
+
+<h4 id="the-overlooked-contributors">The Overlooked Contributors</h4>
+
+<p>Nestled in between the midrise government buildings of Sector 19 is a more modest bungalow which served as the architecture and engineering offices for the planning of the city. Today it is the Le Corbusier Centre, which houses models, photos, and archives of documents pertaining to the planning of Chandigarh. It is here where you get to meet the others who worked under and alongside the man who got all the attention. Apart from the dozens of Indian architects, draftsmen, and engineers lost to time for all but a photograph hung in the exhibition, there are three other key figures overlooked in the project: Maxwell Fry, Jane Drew, and Pierre Jeanneret (notably, Le Corbusier’s cousin). It was these three who oversaw the design of other key infrastructure of the city, including all housing typologies, educational and cultural institutions, as well furniture for many of these buildings. These aspects were certainly less flashy than the Capital Complex, but were more influential in shaping the way that residents actually lived their lives.</p>
+
+<p>The other designers were not without their faults either, though. In an attempt to impose a more modern way of living, the new housing typologies had less regard for the way of life that Punjabis were used to. This resulted in complaints and makeshift solutions, especially from the first few residents. And in a desire for efficiency and practicality, concrete was a particularly used material: from shelves built into the walls of bedrooms, to screens and brise soleils that reduce sunlight exposure and let in wind. However, the permanence of these elements resulted in a lack of flexibility as fixtures could not be changed or moved, and the heritage status of many of these buildings disallow retrofits to be made to align with more modern housing needs.</p>
+
+<p><br /> <img src="/assets/images/writings/weekend-in-chandigarh/Chandigarh-14.jpg" alt="Exhibition at the Le Corbusier Centre. " style="padding-bottom: 10px;" /> 
+<small> Exhibition at the Le Corbusier Centre. </small> <br /></p>
+
+<h4 id="chandigarh-today-a-city-of-contrasts">Chandigarh Today: A City of Contrasts</h4>
+
+<p>The ultimate spirit of Chandigarh is its ideals as a planned city– a chance to start anew for the recently split province of Punjab, and for the newly independent India. It wants to push the boundaries to create a utopia. Originally dreamt up by architects Albert Mayer and Matthew Nowicki, Le Corbusier reworked the original plan to be more in line with his urbanist philosophy. The result is a relatively ordered grid of superblocks, designed to be self-sustaining with busy avenues connecting them. These superblocks, numbered as Sectors from 1 to 50 and beyond, were then assigned different functions akin to the human body. Administrative (the head), education and culture (the hands), greenspace and parks (the lungs), commercial and entertainment (the heart). Planning was important at the early stages of the city’s development because it had to entice people to move there. In a way, it worked– Chandigarh today is a thriving city of over one million people and has one of the highest quality of life measurements in India. It has ample green space and is clean and orderly, attracting many to move there.</p>
+
+<p>However, a lot of these decisions had unintended consequences. Since all sectors continued in rows southwest from Sector 1 (the Capital Complex), the closer you were to the administrative center, the more well off and important you were. The numbering of each sector ended up being used by residents to determine class and status. Chandigarh is also more car dependent compared to other cities in India. Its train station is located on the fringes of the territory surrounded by forests, and we relied on taxis and autos to get around anywhere. Despite the union territory being a planned city, its urban growth has extended beyond its original bounds, with the superblock scheme continuing south into the city of Mohali in Punjab, and a new planned city built to the east, Panchkula in the state of Haryana. The latter is more akin to the original layout that Mayer and Nowicki had envisioned. The exclusivity and prestige of living in and around Chandigarh merely created a real estate craze, as land prices skyrocketed due to the perceptions of the city. It was clean, new, designed by a famed architect, the future of living, and so on. Which begs the question: who is Chandigarh really for, today? And more importantly, what does this experiment teach us about planned cities, and how they evolve over time?</p>
+
+<p><br /> <img src="/assets/images/writings/weekend-in-chandigarh/Chandigarh-18.jpg" alt="The footprint of Burail within the superblock of Sector 45, as seen in the Map of Chandigarh at Sector 17." style="padding-bottom: 10px;" /> 
+<small> The footprint of Burail within the superblock of Sector 45, as seen in the Map of Chandigarh at Sector 17. </small> <br /></p>
+
+<p>There’s one more oddity in Chandigarh that I’d like to point out. At the center of Sector 45 is an area that doesn’t quite fit in with the rest of the ordered grid. A square area perpendicular to the north, merely cut off by the wide superblock avenue in its southeast sticks out like a sore thumb. The roads inside are not straight lines but weave organically between non-rectangular buildings. This oddity is Burail, one of the dozens of villages that existed in the pre-Chandigarh landscape. It is one of the only settlements that escaped Corb’s utopian vision, and provides us a glimpse into how life may have developed in the absence of the plan, or rather, in spite of his plan. It is a thriving and tight-knit urban village that houses industries not available in the rest of the city. It is also a scar that serves a reminder of the reality of planned cities: they erase the history of the places that came before them in the pursuit of a “better” future.</p>
+
+<p>Burail was brought to my attention by one of my colleagues in Mumbai before travelling to Chandigarh, as a pocket of intrigue within the strict order of the city. When asked about visiting Burail during our trip there, our tour guide (a Chandigarh local who lived within the Sector 40 area) remarked that there was nothing to see there and described it as a “prison”. I think this is telling of the way that residents view oddities like Burail: because it goes against that overarching vision of what Chandigarh is supposed to stand for, it is a flaw. This is despite the fact that Burail has been inhabited for over three hundred years before the concept of Chandigarh ever broke ground. The contrast between the ideal and reality of how people live is one that only shows up over time. Burail serves as an interesting case study for how a natural urban typology forms when the planning of authorities fails to keep up. If the village never gained its autonomy from the rest of the Chandigarh plan, its fate would be sealed like the other villages that were bulldozed for the sake of progress.</p>
+
+<p><br /> <img src="/assets/images/writings/weekend-in-chandigarh/PXL_20240720_045245384.MP.jpg" alt="The Open Hand Monument, a now enduring symbol of Chandigarh." style="padding-bottom: 10px;" /> 
+<small> The Open Hand Monument, a now enduring symbol of Chandigarh. </small> <br /></p>
+
+<h4 id="my-conclusions">My Conclusions</h4>
+
+<p>At the end of the trip, I left Chandigarh with a different perspective on Le Corbusier. Something like the Capital Complex would never exist today. I make that conclusion because there will never again be a complex dreamed up by a single person. Nowadays, there are too many stakeholders for there to be a mythos of a single person behind a plan. This may have been us learning from our mistakes, and we realized that entrusting the design of an entire civic project to a single person handed them too much control. Maybe, there are just too many architects today for there to be reverence for a single figure. The complex for all its criticisms preserves this moment of architectural history– a time of idealism, experimentation, and exaltation. It is therefore Corb’s greatest legacy, and it shows the failures of planning for the future, or at least that his ideals didn’t exactly translate into that future. It is a poignant reminder of the power of design and the built environment.</p>
+
+<p>As for the city, will there ever be another Chandigarh? The answer is yes, there will. For as long as there is a desire for something new, flashy, and better than the urban spaces we live in today, the idea of a planned city stays alive. The allure of the planned city is so infectious, that one only has to look west across the Arabian Sea in order to see its next iterations (where superblock grids have transitioned into linear lines). It’s a story that continues to repeat itself: the idea that we have to reinvent the way we live, and that these grand ideas for architecture and urban planning will be the solution to our problems. While there is some truth to that, the reflections of Chandigarh’s development over the decades of its existence have shown how we look back on these ideas of the future and how the people who end up living there actually interact with what’s there. It is an experiment that concludes that planning at this scale is too grand and too rigid, and that we must prioritize adaptability over perfection. As much as designers try to fight it, human needs will always evolve beyond what we can predict, so let’s give the space for that adaptability and change.</p>
+
+<p><br /></p>
+
+<p><em>This essay was inspired by and references details from the book “Chandigarh: The Backstory - And The City It Couldn’t Be” by Vibhor Mohan. I recommend reading it if you’d like to learn more about the planned city beyond the buildings of Le Corbusier.</em></p>]]></content><author><name></name></author><category term="Photo Essay" /><summary type="html"><![CDATA[The legacy of architects and the allure of the planned city.]]></summary></entry><entry><title type="html">An outsider’s perspective on Architecture Theses in the Philippines</title><link href="http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/" rel="alternate" type="text/html" title="An outsider’s perspective on Architecture Theses in the Philippines" /><published>2024-09-04T00:00:00+04:00</published><updated>2024-09-04T00:00:00+04:00</updated><id>http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines</id><content type="html" xml:base="http://localhost:4000/An-outsiders-perspective-on-Architecture-Theses-in-the-Philippines/"><![CDATA[<p>Sometime in the beginning of June, I stumbled across an open call for architecture thesis submissions for the Anthology Festival, a gathering of architects and students from across the Philippines hosted by WTA Architecture + Design Studio. The competition was a chance for students to be able to present that hard work towards professionals and other students from across the country. Although I was a civil engineer who studied outside of the Philippines, at NYU Abu Dhabi, I heavily advocated doing the architectural design for an administration building of my capstone project and thought there was nothing to lose by submitting my project for the competition and seeing what happens. It ended up getting shortlisted.</p>
+
+<p>When I arrived at the office, dozens of recently graduated architecture students were waiting in the hallways. Some had traveled hours from Ilocos Norte or Cebu City to come to the presentations. Others sat in groups, from the same or nearby schools, catching up with each other. While I initially found myself feeling out of place, I ended up making great connections and engaging with intellectual discussions about the state of architecture here at home. Throughout the experience I gained a unique outsider’s perspective on how architecture theses are done here in the Philippines. This is amplified by the fact that I neither graduated from a Filipino institution nor worked on a (fully) architectural thesis. I’ve come away from the festival with some observations and thoughts.</p>
+
+<p><br /> <img src="/assets/images/writings/arch-thesis/photo1.jpg" alt="The audience watching my room’s presentations" style="padding-bottom: 10px;" /> 
+<small> The audience watching my room’s presentations </small> <br /><br /></p>
+
+<h4 id="competitive">Competitive.</h4>
+
+<p>The aura of the architecture thesis was omnipresent in the office that day. As a concept, it feels like something that encapsulates everything we’ve gained from university over the past four to five years. While that goes with every other capstone or thesis project in senior year, that culminating pressure is exacerbated in a medium where communication of ideas is one of the main hurdles to jump over. There was a key emphasis in the way people presented their projects, from the public speaking skills people were showing off, to the extensive use of renderings and diagrams in order to convey concepts and the like. The pressure undoubtedly brings out some of the best work in people, but I felt it also created a competitive environment, which started well before the announcement of the Anthology competition. Some people were in groups of two to three, showcasing an extensive project with hundreds of pages of drawings only a small firm could pull off. There was one school where people could not create teams and thus every student had an individual project (I won’t name which school it is but you I’m sure you can guess for yourself). Despite this, their projects were just as extensive, and you could sense the rivalry between batchmates. Everyone was trying to one-up each other in some way. Everyone was trying to stand out, to tell a story about what they’ve taken out of their architecture degree. It’s an interesting dynamic that I didn’t observe during my engineering capstone presentations in Abu Dhabi, showcasing what I think is a byproduct of the architectural environment in the Philippines.</p>
+
+<p><br /> <img src="/assets/images/writings/arch-thesis/photo2.jpg" alt="Display of thesis boards at the main office hallway" style="padding-bottom: 10px;" /> 
+<small> Display of thesis boards at the main office hallway </small> <br /><br /></p>
+
+<h4 id="conceptual">Conceptual.</h4>
+
+<p>Everyone’s thesis was an exploration into a specific theme or concept. The projects I saw leaned less on the practical side because the thesis is a time for young architects to experiment, research, and dedicate time to developing a concept that may not be as feasible yet in the real world. Many themes were very poetic, revolving around concepts such as the connection between the past and the future or our relationship with the stars in the universe. Other topics were very experimental, ranging from an underground city in the mirror image of the Mayon Volcano, or the use of magnetic levitation technology in architectural design. When I asked around why a lot of these projects were larger than life, I was told that requirements dictated that people couldn’t really do small scale projects such as residential buildings. This was both because in the eyes of professors and other classmates, these didn’t constitute the same level of effort as the standard thesis should, and also because it has the potential to be outdone or forgotten about during presentations. This builds upon the competitive aspect of the thesis even more– trying to leverage standing out to your thesis jury but also to potential employers.</p>
+
+<p><br /></p>
+
+<h4 id="conventional">Conventional.</h4>
+
+<p>The combination of the two things I’ve discussed above has created this expectation on what the architecture thesis should be. There were marks to hit in order to score a good grade. When I presented a civil engineering heavy thesis, one in which I simplified technical details as much as possible, I unknowingly turned this convention on its head. By studying in a different field in a different environment I wasn’t defined by the usual constraints experienced in the Philippines, but my passion and drive for architecture still showed through in the project. One of the jury members told me during the Q&amp;A that my project was “a breath of fresh air” during the competition. The constraints (or lack thereof) I found myself in allowed me to stand out in my cohort there yet fit in at the same time. Maybe it’s time to rethink what we prioritize in the architecture thesis, or at least think about how we approach and present our projects.</p>
+
+<p><br /> <img src="/assets/images/writings/arch-thesis/photo3.jpeg" alt="Presenting my thesis to the jury" style="padding-bottom: 10px;" /> 
+<small> Presenting my thesis to the jury </small> <br /><br /></p>
+
+<h4 id="curation-of-the-future">Curation of the future.</h4>
+
+<p>At the end of the day, this competition was merely a footnote in the architecture thesis process, as for the most part everyone had already defended their theses by the time we presented them to WTA Design Studio. In that regard, it was a celebration of everyone’s work and accomplishments in university. While I was looking at the display of everybody’s thesis boards in the office hallway, I came to realize that these projects were the things that the next generation of Filipino architects are caring about. In the room I was in, people presented: a hospital that would handle the next big pandemic, the adaptive reuse and restoration of buildings along Escolta street, a museum dedicated to natural disaster preparedness and remembrance, modular floating communities for nomadic fishermen in Bohol, and an ADHD treatment center, which ended up winning the entire competition. It turns out that the room I was in was a selected group of some of the most interesting projects submitted, curated by the senior architects at the firm. It was exciting! This was a glimpse into the possibilities that these ideas could have on the built environment, especially in the Philippines. In the end, I hope people take what they learn and the exchange of ideas from other students during the festival and bring them into the world.</p>
+
+<p><br /> <img src="/assets/images/writings/arch-thesis/photo4.jpeg" alt="With some new-found architecture colleagues!" style="padding-bottom: 10px;" /> 
+<small> With some new-found architecture colleagues! </small> <br /><br /></p>
+
+<h4 id="conclusion">Conclusion.</h4>
+
+<p>There’s definitely a lot more to say about Anthology as an event. Pre-pandemic, it was a much larger architecture festival hosted beside the outer walls of Intramuros. While much humbler in size over the past two years, the thesis presentations offered a peek into everyone’s passions united under a shared field of architecture, design, and the built environment. I feel very humbled to have been a part of that process. The reality though is that this is the start of the pipeline– two years of apprenticeship followed by reviewing for the licensure exam, a time where a lot of these ideas may be forgotten about. The architecture thesis is certainly not perfect, and while I’m in no position to say if it needs to be changed, it allows architecture students to engage with these grand ideas that inadvertently go beyond architecture itself, if not for just a little bit.</p>]]></content><author><name></name></author><category term="Essay" /><summary type="html"><![CDATA[Reflections from Anthology Festival 2024.]]></summary></entry><entry><title type="html">Building knock-offs: what is originality in Architecture?</title><link href="http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/" rel="alternate" type="text/html" title="Building knock-offs: what is originality in Architecture?" /><published>2020-10-04T00:00:00+04:00</published><updated>2020-10-04T00:00:00+04:00</updated><id>http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture</id><content type="html" xml:base="http://localhost:4000/Building-knock-offs-what-is-originality-in-Architecture/"><![CDATA[<p>As the taxi pulled away from Saadiyat I became filled with excitement. After 2 weeks of quarantine, I was getting to see Abu Dhabi for the first time. We began to cross the bridge to the main island and the full skyline of the city came into view. While I was looking in awe at the dozens of buildings in the distance, I saw something that felt oddly familiar. A group of three buildings connected with a cantilever at its top stood in front of the skyline. I soon found out that these buildings were called the Gate Towers, a residential complex in Al Reem Island. Instantly, an image of another building came into mind: The Marina Bay Sands (MBS) in Singapore. It too consisted of 3 towers connected with a skybridge, built around the same time, and is an iconic destination that I have visited before.</p>
+
+<p><br /> <img src="/assets/images/writings/building-knock-offs/comparison-1.png" alt="Marina Bay Sands, Singapore (Left), The Gate Towers, Abu Dhabi (Right)" style="padding-bottom: 10px;" /> 
+<small> Marina Bay Sands, Singapore (Left) [1], The Gate Towers, Abu Dhabi (Right) </small> <br /></p>
+
+<p>In theory, the Gate Towers were grander in every way– they were taller, bolder, and more impressive. Yet I had never known about them until now, and I instinctively thought it looked wrong when I saw them, as if it were a rip-off of Singapore’s. It reminded me of a discussion we had as a class about the nature of creativity and made me question: where do we draw the line in originality in Architecture?</p>
+
+<p><br /></p>
+
+<h4 id="a-utilitarian-mindset">A Utilitarian Mindset</h4>
+<p>The first thought that came to mind on the emphasis of aesthetics of architecture was that of modernism, which approached design with a utilitarian mindset. One of my favorite modernist architects, Mies van der Rohe, laid the foundations for the international style of architecture. I personally got to visit and study inside one of his buildings, Crown Hall. Everything from the bare facade that left steel beams and mullions exposed, to the vast and almost column-less interior highlighted his mantra: Less is More. Exploring this perspective made me realize the difference from simply just designing– architects are civil servants that have a duty to create and provide the spaces that we use daily. In the case of buildings, as their main purpose is to serve people’s needs, they should be designed in a way that fits that purpose. Similarities in design simply mean similarities in needs, and are therefore justified.</p>
+
+<p><br /> <img src="/assets/images/writings/building-knock-offs/crown-hall.jpeg" alt="Mies van der Rohe’s Crown Hall, Chicago" style="padding-bottom: 10px;" /> 
+<small> Mies van der Rohe’s Crown Hall, Chicago [2] </small> <br /></p>
+
+<p>However this begs the question, to what extent can the limit of designing out of necessity be pushed? How can one determine whether a design is original or not? The consensus that my Re-Design class agreed on was that originality isn’t fixed. This stemmed from a discussion of knock-off designs of products. There is only ever one original design and everything else, including officially licensed items from the same designer, are simply re-iterations. Therefore, what makes a design unique (and ultimately more favorable) is the innovation that it brings, and how it pushes the original to bring something better to the table. In the case of buildings, it is definitely rarer to find these cases because there is usually only one original building, compared to mass produced products. What differs buildings from their form is their implementation, from the use of materials, to different scales and functionality. In my opinion, this range of options is what blurs the lines between copying and creativity, as it is easy to dismiss the Gate Towers of having a very similar shape to the MBS. Are they exactly the same? No. In fact, the Gate innovates by pushing the limits of the MBS’ scale. Yet their striking similarities are close enough at their scale to warrant attention.</p>
+
+<p><br /> <img src="/assets/images/writings/building-knock-offs/comparison-2.png" alt="Marina Bay Sands, Singapore (Left), The Gate Towers, Abu Dhabi (Right)" style="padding-bottom: 10px;" /> 
+<small> Marina Bay Sands, Singapore (Left) [1], The Gate Towers, Abu Dhabi (Right) </small> <br />
+<br /></p>
+
+<h4 id="an-architectures-branding">An Architecture’s Branding</h4>
+<p>The last piece of the puzzle is the influence of an architecture’s branding– the way that a design is perceived because of how it is presented. So why did the Gate Towers feel wrong to me? Branding. In the case of the Marina Bay Sands, Moshie Safdie, the head architect, designed it with the intent of making it a landmark of Singapore. Everything from its location right in front of the waterfront, to its logo, its tourist attractions (its infinity pool, observation deck, casinos), and its reputation are all engraved into its branding. Meanwhile the Gate Towers are simply marketed as luxury apartments for locals or potential investors. The power of branding and the familiarity principle that came along with the marketing and popularity of Singapore made the MBS recognizable. As someone who visited them first, I recognize some of the mere-exposure bias that went into my first impressions of the Gate Towers.</p>
+
+<p><br /> <img src="/assets/images/writings/building-knock-offs/mbs-pool.jpeg" alt="The Marina Bay Sands’ iconic infinity pool and logo solidify its branding" style="padding-bottom: 10px;" /> 
+<small> The Marina Bay Sands’ iconic infinity pool and logo solidify its branding </small> <br /></p>
+
+<p>While it is tempting to label the Gate Towers as a lesser known knock-off, there is more nuance to how one examines the originality of a design. As architecture continues to evolve, so do the concepts and designs that they stem from. These innovations are what will continue to push the limits of the spaces we work and live in.</p>
+
+<p><br /></p>
+
+<p><em>This essay was originally written for the class ‘Redesign’ in October 2020 and was first featured on the NYUAD Design website.</em></p>
+
+<p><br /></p>
+
+<p>Photo credits:</p>
+
+<p>[1] Cruz, Jason. Photo of Marina Bay Sands from Downtown Singapore. 12 Nov 2017.</p>
+
+<p>[2] Cruz, Jason. Photo of Crown Hall at the Illinois Institute of Technology. 9 July 2018.</p>
+
+<p>[3] Cruz, Jason. Photo of Marina Bay Sands looking up at the skydeck. 12 Nov 2017.</p>]]></content><author><name></name></author><category term="Essay" /><summary type="html"><![CDATA[Haven't I seen this building before?]]></summary></entry></feed>
