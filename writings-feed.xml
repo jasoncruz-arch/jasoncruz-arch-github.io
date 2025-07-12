@@ -1,0 +1,53 @@
+---
+layout: nil
+permalink: /writings-feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Writings – Gerald Jason Cruz</title>
+    <link>{{ site.url }}{{ site.baseurl }}/writings</link>
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+
+    {% assign posts = site.posts | sort: 'date' | reverse %}
+    {% for post in posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <author>Gerald Jason Cruz</author>
+
+      <content:encoded><![CDATA[
+        {% if post.thumbnail %}
+          <p>
+            <img src="{{ site.url }}{{ site.baseurl }}{{ post.thumbnail }}" alt="Thumbnail for {{ post.title | escape }}" />
+          </p>
+          {% if post.thumbnaildesc %}
+            <p><em>{{ post.thumbnaildesc }}</em></p>
+          {% endif %}
+        {% endif %}
+
+        {% capture content %}
+          {{ post.content | markdownify }}
+        {% endcapture %}
+
+        {% assign paragraphs = content | split: '</p>' %}
+        {% assign first_paragraph = paragraphs[0] | append: '</p>' %}
+
+        {{ first_paragraph }}
+
+        <p><em><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Continue reading <span class="arrow">&rarr;</span></a></em></p>
+
+      ]]></content:encoded>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
