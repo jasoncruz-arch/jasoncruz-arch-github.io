@@ -4,7 +4,7 @@ title: The Red Spot
 subtitle: A local intervention on NYU Abu Dhabi's Highline
 type: Installation
 location: United Arab Emirates
-year: 2022
+date: 2022-05-12
 role: Conceptual Design, Rendering, Fabrication
 thumbnail: /assets/images/projects/the-red-spot/red-spot-thumbnail.jpeg
 featured_image: /assets/images/projects/the-red-spot/red-spot-hero.jpeg

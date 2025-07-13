@@ -4,7 +4,7 @@ title: Tbaba
 subtitle: Pavilion for Dubai Design Week 2024
 type: Installation
 location: United Arab Emirates
-year: 2024
+date: 2024-11-05
 team: Roudhah Al Mazrouei
 role: Conceptual Design, Rendering, Structural Engineering, Project Management, Budgeting
 thumbnail: /assets/images/projects/tbaba/tbaba-thumbnail.jpeg
@@ -29,9 +29,14 @@ These elements served as the main concept of the installation. This fabric would
 
 ## Harnessing the Wind, an Intercultural Force
 
-<img src="/assets/images/projects/tbaba/tbaba-4.jpg"
-     alt="The Tbaba pavilion framing the Dubai skyline"
-     style="display: block; width: 100vw; max-width: 100vw; margin-left: 50%; transform: translateX(-50%); height: auto;" /> <br>
+<div style="position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; overflow: hidden;">
+  <img src="/assets/images/projects/tbaba/tbaba-4.jpg"
+       alt="The Tbaba pavilion framing the Dubai skyline"
+       style="display: block; width: 100%; height: auto;" />
+</div>
+
+
+<br>
 
 Wind plays a crucial role in Tbaba, animating the red fabric to create a dynamic, kinetic volume that brings the installation to life. The fluttering fabric mimics the sea's movement and the rhythmic motions of pearl divers, transforming the sculpture into a living tribute to the Arabian Gulf's maritime heritage in a sustainable manner.
 

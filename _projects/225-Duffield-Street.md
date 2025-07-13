@@ -2,9 +2,9 @@
 layout: project
 title: 225 Duffield Street
 subtitle: A supertall icon in Downtown Brooklyn
-type: Architecture
+type: [Architecture, Engineering]
 location: United States
-year: 2023
+date: 2023-05-10
 team: Waqas Bhutta, Qisheng Li
 advisor: Georgi Petrov PE, AIA
 role: Conceptual Design, Structural Design, Rendering

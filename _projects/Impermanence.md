@@ -4,7 +4,7 @@ title: Impermanence
 subtitle: The 2021 Abu Dhabi Art Pavilion Prize Winner
 type: Architecture
 location: United Arab Emirates
-year: 2021
+date: 2021-11-17
 team: Roudhah Al Mazrouei, Jennifer Tsai
 advisor: Goffredo Puccetti, Felix Beck, Matt Karau
 role: Conceptual Design, Rendering, Structural Design, Project Management, Budgeting

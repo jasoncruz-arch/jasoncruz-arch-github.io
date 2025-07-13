@@ -2,9 +2,9 @@
 layout: project
 title: Urban Fabric
 subtitle: The Christo and Jeanne-Claude Award 2022 Winner
-type: Installation
+type: [Installation, Engineering]
 location: United Arab Emirates
-year: 2022
+date: 2022-11-15
 team: Roudhah Al Mazrouei, Jennifer Tsai
 advisor: Goffredo Puccetti
 role: Conceptual Design, Rendering, Structural Engineering, Project Management, Budgeting

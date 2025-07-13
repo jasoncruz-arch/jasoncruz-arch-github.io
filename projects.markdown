@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 <div class="projects-grid">
-  {% assign sorted_projects = site.projects | sort: "year" | reverse %}
+  {% assign sorted_projects = site.projects | sort: "date" | reverse %}
   {% for project in sorted_projects %}
     <div class="project-thumb-link">
       <a href="{{ project.url }}">
@@ -14,13 +14,17 @@ permalink: /projects/
       </a>
       <div class="project-tags">
         {% if project.type %}
-          <a class="project-tag-link" href="?tag={{ project.type | append: "" | uri_escape }}">{{ project.type }}</a>
+          {% for tag in project.type %}
+            <a class="project-tag-link" href="?tag={{ tag | append: "" | uri_escape }}">{{ tag }}</a>
+          {% endfor %}
         {% endif %}
         {% if project.location %}
-          <a class="project-tag-link" href="?tag={{ project.location | append: "" | uri_escape }}">{{ project.location }}</a>
+          {% for loc in project.location %}
+            <a class="project-tag-link" href="?tag={{ loc | append: "" | uri_escape }}">{{ loc }}</a>
+          {% endfor %}
         {% endif %}
-        {% if project.year %}
-          <a class="project-tag-link" href="?tag={{ project.year | append: "" | uri_escape }}">{{ project.year }}</a>
+        {% if project.date %}
+          <a class="project-tag-link" href="?tag={{ project.date | date: "%Y" }}">{{ project.date | date: "%Y" }}</a>
         {% endif %}
       </div>
     </div>

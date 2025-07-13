@@ -17,7 +17,9 @@ permalink: /writings/
       </h3>
       <div class="post-meta-row">
         {% if post.tags %}
-          <span class="post-tag">{{ post.tags[0] }}</span>
+          {% for tag in post.tags %}
+            <a class="post-tag" href="?tag={{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
         {% endif %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </div>
@@ -31,3 +33,32 @@ permalink: /writings/
     </article>
   {% endfor %}
 </div>
+
+
+<script>
+  // Helper: Get the value of 'tag' from URL query string
+  function getQueryParam(param) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(param);
+  }
+
+  const selectedTag = getQueryParam('tag');
+
+  if (selectedTag) {
+    // Find all posts on the page
+    const posts = document.querySelectorAll('.post-item');
+
+    posts.forEach(post => {
+      // Gather all tags in this post (with class 'post-tag')
+      const tags = Array.from(post.querySelectorAll('.post-tag')).map(el => el.textContent.trim());
+
+      // Show post only if it includes selectedTag, else hide it
+      if (tags.includes(selectedTag)) {
+        post.style.display = '';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+  }
+</script>
+

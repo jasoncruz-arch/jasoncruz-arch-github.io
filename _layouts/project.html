@@ -22,7 +22,7 @@ layout: default
     {% if page.type %}
       <div class="metadata-row">
         <div class="metadata-label">Type</div>
-        <div class="metadata-value">{{ page.type }}</div>
+        <div class="metadata-value">{{ page.type | join: ", " }}</div>
       </div>
     {% endif %}
     {% if page.year %}
@@ -56,4 +56,76 @@ layout: default
   <div class="project-content">
     {{ content }}
   </div>
+
 </article>
+
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 16px 0;">
+<br>
+
+<h2>Related Projects</h2>
+
+{% assign current_url = page.url %}
+{% assign current_type = page.type %}
+{% assign current_location = page.location %}
+
+{% assign all_projects = site.projects | where_exp: "item", "item.url != current_url" %}
+
+{%- comment -%} Match by both type and location {%- endcomment -%}
+{% assign match_both = all_projects | where: "type", current_type | where: "location", current_location %}
+
+{%- comment -%} Match only by type {%- endcomment -%}
+{% assign match_type = all_projects | where: "type", current_type %}
+
+{%- comment -%} Match only by location {%- endcomment -%}
+{% assign match_location = all_projects | where: "location", current_location %}
+
+{%- comment -%} Merge the lists and remove duplicates by URL {%- endcomment -%}
+{% assign combined = "" | split: "" %}
+
+{% for p in match_both %}
+  {% assign combined = combined | push: p %}
+{% endfor %}
+
+{% for p in match_type %}
+  {% unless combined contains p %}
+    {% assign combined = combined | push: p %}
+  {% endunless %}
+{% endfor %}
+
+{% for p in match_location %}
+  {% unless combined contains p %}
+    {% assign combined = combined | push: p %}
+  {% endunless %}
+{% endfor %}
+
+{% assign related_projects = combined | sample: 3 %}
+
+<div class="related-projects-grid">
+  {% for project in related_projects %}
+    <div class="project-thumb-link">
+      <a href="{{ project.url }}">
+        <img class="project-thumb" src="{{ project.thumbnail }}" alt="{{ project.title }}">
+        <h3 class="project-title-link">{{ project.title }}</h3>
+      </a>
+
+      <div class="project-tags">
+        {% if project.type %}
+          {% for tag in project.type %}
+            <a class="project-tag-link" href="/projects/?tag={{ tag | append: "" | uri_escape }}">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
+        
+        {% if project.location %}
+          <a class="project-tag-link" href="/projects/?tag={{ project.location | append: "" | uri_escape }}">{{ project.location }}</a>
+        {% endif %}
+        
+        {% if project.year %}
+          <a class="project-tag-link" href="/projects/?tag={{ project.year | stringify | append: "" | uri_escape }}">{{ project.year }}</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<br><br>
+

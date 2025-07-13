@@ -4,7 +4,7 @@ title: Lerchenfenster
 subtitle: A prototype for Future Living in Münsterland
 type: Architecture
 location: Germany
-year: 2022
+date: 2022-08-23
 team: Agata Trojanowska
 advisor: Felix Beck
 role: Conceptual Design, Rendering

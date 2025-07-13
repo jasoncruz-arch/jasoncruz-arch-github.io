@@ -50,7 +50,7 @@ permalink: /about/
   <span style="font-weight:600;"> Center for Interacting Urban Networks (2021-2022) </span> <br>
   Research Assistant | Abu Dhabi, UAE <br> <br>
 
-  <a class="internal-link" href="/assets/CV.pdf" download>Download CV</a>
+  <a class="internal-link" href="/assets/cv/202507 Gerald Jason Cruz CV.pdf" download>Download CV</a>
 
   </div>
 </div>

@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /home-trial
+---
+
+<div class="carousel-full" style="display: block; width: 100vw; max-width: 100vw; margin-left: 50%; transform: translateX(-50%) translateY(-20%); height: auto;">
+  <div class="carousel-container">
+    <button class="arrow-home left" onclick="prevSlide()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+    </button>
+    <button class="arrow-home right" onclick="nextSlide()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+    </button>
+    <div class="carousel-slide" id="carousel">
+      <div class="carousel-item">
+        <img src="/assets/images/projects/tbaba/tbaba-4.jpg" alt="Tbaba">
+        <a class="project-link" href="/Tbaba" style="transform: translateX(230%)">Tbaba, 2024</a>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/projects/port-admin-building/admin-building-thumbnail.jpeg" alt="Port Admin Building">
+        <a class="project-link" href="/port-admin-building">Port Administration Building, 2023</a>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/projects/urban-fabric/urban-fabric-thumbnail-main.jpeg" alt="Urban Fabric">
+        <a class="project-link" href="/Urban-Fabric">Urban Fabric, 2022</a>
+      </div>
+    </div>
+    <div class="carousel-caption">
+      <div class="home-wrapper" style="width: 80%; max-width: 1390px; display: flex; align-items: center; justify-content: space-between;">
+        <h1>Hyperlocal Responses Through <span id="changing-word">Architecture</span></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>
+  I am an architect and civil engineer based between places, dedicated to exploring the intersection of design, infrastructure, and place. My work responds to context, culture, and climate — always with precision and purpose.
+</p>
+
+
+<script>
+  const words = ["Architecture", "Engineering", "Design"];
+  const changingWord = document.getElementById("changing-word");
+  const carousel = document.getElementById("carousel");
+  const totalSlides = carousel.children.length;
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    carousel.style.transform = `translateX(-${index * 100}%)`;
+    changingWord.style.opacity = 0;
+    changingWord.style.transform = "translateY(1rem)";
+    setTimeout(() => {
+      changingWord.textContent = words[index];
+      changingWord.style.opacity = 1;
+      changingWord.style.transform = "translateY(0)";
+    }, 300);
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    showSlide(currentIndex);
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    showSlide(currentIndex);
+  }
+
+  setInterval(nextSlide, 6000);
+  showSlide(currentIndex);
+</script>

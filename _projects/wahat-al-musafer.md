@@ -4,7 +4,7 @@ title: Wahat Al Musafer
 subtitle: The Traveler's Oasis
 type: Architecture
 location: United Arab Emirates
-year: 2024
+date: 2024-10-22
 team: Alya AlZeyoudi
 role: Conceptual Design, Rendering, Structural Design
 thumbnail: /assets/images/projects/wahat-al-musafer/wahat-al-musafer-thumbnail.jpeg

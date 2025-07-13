@@ -2,9 +2,9 @@
 layout: project
 title: Garden of Festivities
 subtitle: A community space for Dharavi Koliwada, Mumbai
-type: Architecture
+type: [Architecture, Engineering]
 location: India
-year: 2024
+date: 2024-03-19
 team: Alya AlZeyoudi, Zuza Bak, Lily Xu, Pooja Bhide
 advisor: Kareena Kochery (Urbz), Matt Karau
 role: Conceptual Design, Structural Design, Rendering
