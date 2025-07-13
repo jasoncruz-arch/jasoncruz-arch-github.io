@@ -31,12 +31,16 @@ linkedin_username: gerald-jason-cruz
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 feed:
   path: false
 
 
 author: Gerald Jason Cruz
+
+google_analytics: G-EQXEJVSN5E
+
 
 
 # Projects pages

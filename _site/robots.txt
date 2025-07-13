@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jasoncruz.co/sitemap.xml

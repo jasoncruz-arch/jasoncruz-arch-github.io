@@ -7,6 +7,27 @@
 
 
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ page.thumbnail | default: site.default_image }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+<meta name="twitter:image" content="{{ page.thumbnail | default: site.default_image }}">
+
+
+
 
 {% if page.layout == "project" and page.title and page.description %}
 <script type="application/ld+json">
@@ -26,3 +47,18 @@
 }
 </script>
 {% endif %}
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gerald Jason Cruz",
+  "url": "https://jasoncruz.co",
+  "sameAs": [
+    "https://www.linkedin.com/in/geraldjasoncruz",
+    "https://www.instagram.com/jasoncruz.arch"
+  ]
+}
+</script>
+
