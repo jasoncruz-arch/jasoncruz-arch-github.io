@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jasoncruz.co" 
 instagram_username: jasoncruz.arch
 linkedin_username: gerald-jason-cruz
+default_image: "/assets/images/projects/tbaba/tbaba-thumbnail.jpeg"
 
 # Build settings
 theme: minima
