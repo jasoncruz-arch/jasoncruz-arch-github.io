@@ -32,7 +32,6 @@ default_image: "/assets/images/projects/tbaba/tbaba-thumbnail.jpeg"
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
 
 feed:
   path: false

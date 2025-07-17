@@ -1865,6 +1865,11 @@ body, .page-content, main {
   object-fit: cover;
 }
 
+@media screen and (max-width: 800px) {
+  .related-projects-grid {
+    grid-template-columns: 1fr; /* collapse to 1 column */
+  }
+}
 body, html {
   overflow-x: hidden;
 }
